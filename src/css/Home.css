@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+.home {
+  position: relative;
+  top: 80px;
+  background-color: #141414;
+  color: white;
+  height: 415px;
+  width: 87.8%;
+  padding: 80px;
+}
+
+.section {
+  padding-left: 300px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+.titleHome {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  color: #F5F5F5;
+  font-family: Bebas Neue;
+  font-size: 65px;
+}
+
+.pHome {
+  padding-bottom: 40px;
+  text-align: center;
+  font-family: Open Sans;
+  color: #F5F5F5;
+  font-size: 20px;
+}
+
+.button {
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
+  width: 200px;
+  border: solid transparent;
+  border-radius: 5px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  background-color:  #cccccc;
+  color: black;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #F5F5F5;
+}
+
+@keyframes go-back {
+  0% {
+      transform: translateY(0);
+  }
+  0% {
+      transform: translateY(60px);
+  }
+}
+
+.seta {
+  position: absolute;
+  top: 380px;
+  left: 635px;
+  padding: 20px;
+  text-align: center;
+  animation: go-back 1.5s;
+  animation-iteration-count: infinite;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+.about {
+  position: relative;
+  top: 80px;
+  background-color: #1b1b1b;
+  height: 496px;
+  width: 87.8%;
+  padding: 80px;
+  text-align: center;
+}
+
+.titleAbout {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #F5F5F5;
+  font-family: Bebas Neue;
+  font-size: 65px;
+}
+
+.pAbout {
+  text-align: justify;
+  font-family: Open Sans;
+  color: #F5F5F5;
+  font-size: 20px;
+}
