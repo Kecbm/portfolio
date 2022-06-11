@@ -10,7 +10,7 @@ import Voto from '../assets/30.Voto.png';
 import Servidor from '../assets/31.Servidor.png';
 
 const newProjects = [
-  { image: Servidor, title: "Store", description: 'API para adicionar, ler, deletar e atualizar produtos e vendas no estoque', github: 'https://github.com/Kecbm/store-manager' },
+  { image: Servidor, title: "Store", description: 'API REST com testes unitários das camadas MSC', github: 'https://github.com/Kecbm/store-manager' },
   { image: Voto, title: "BBB", description: 'Simulação da recepção, anti-fraude, contagem e auditoria dos votos do BBB', github: 'https://github.com/Kecbm/live-20220530-sistema-votacao' },
   { image: Api, title: "API", description: 'Aplicação para cadastrar, visualizar, pesquisar, editar e excluir informações', github: 'https://github.com/Kecbm/talker-manager' },
   { image: novosDados, title: "SQL", description: 'Tabela normalizada e acesso as informações desta através de queries SQL', github: 'https://github.com/Kecbm/one-for-all' },
