@@ -12,8 +12,7 @@ import Formulario from '../assets/11.Formulario.png';
 import Loja from '../assets/14.Loja.png';
 import Planeta from '../assets/15.Planeta.png';
 import novoJogo from '../assets/16.Jogo.png';
-//  TRYBETUNES: deu problema no Vercel
-// import Musica from '../assets/17.Musica.png';
+import Musica from '../assets/17.Musica.png';
 import Carrinho from '../assets/18.Carrinho.png';
 import Carteira from '../assets/20.Carteira.png';
 import outroJogo from '../assets/21.Jogo.png';
@@ -27,7 +26,7 @@ const projects = [
   { image: outroJogo, title: 'Trivia', description: 'Um jogo de perguntas e respostas baseado no jogo show do milhão', deploy: 'https://trivia-kecbm.vercel.app/', github: 'https://github.com/Kecbm/trivia' },
   { image: Carteira, title: 'Wallet', description: 'Uma carteira onde você pode controlar seus gastos e converter moedas', deploy: 'https://trybewallet-kecbm.vercel.app/', github: 'https://github.com/Kecbm/trybewallet' },
   { image: Carrinho, title: 'Online store', description: 'Pesquise produtos por termos e categorias a partir da API do Mercado Livre', deploy: 'https://frontend-online-store-kecbm.vercel.app/', github: 'https://github.com/Kecbm/frontend-online-store' },
-  /* { image: Musica, title: 'Trybetunes', description: 'Aplicação para reproduzir músicas, criar uma lista de favoritas e salvar seu perfil', deploy: 'https://trybetunes-kecbm.vercel.app/', github: 'https://github.com/Kecbm/trybetunes' }, */
+  { image: Musica, title: 'Trybetunes', description: 'Aplicação para reproduzir músicas, criar uma lista de favoritas e salvar seu perfil', deploy: 'https://trybetunes-kecbm.vercel.app/', github: 'https://github.com/Kecbm/trybetunes' },
   { image: novoJogo, title: 'Tryunfo', description: 'Página construida alterando o estado de um componente e atualizndo-o no browser', deploy: 'https://tryunfo-kecbm.vercel.app/', github: 'https://github.com/Kecbm/tryunfo' },
   { image: Planeta, title: 'Planetas', description: 'Aplicação desenvolvida utilizando componentes de classe em React', deploy: 'https://solar-system-kecbm.vercel.app/', github: 'https://github.com/Kecbm/solar-system' },
   { image: Loja, title: 'Shopping', description: 'Página construida com requisições a uma API do Mercado Livre', deploy: 'https://shopping-cart-kecbm.vercel.app/', github: 'https://github.com/Kecbm/shopping-cart' },
