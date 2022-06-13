@@ -17,7 +17,6 @@ import Carrinho from '../assets/18.Carrinho.png';
 import Carteira from '../assets/20.Carteira.png';
 import outroJogo from '../assets/21.Jogo.png';
 import Star from '../assets/22.Star.png';
-//  RECIPES-APP: deu erro
 import Questao from '../assets/26.Questao.png';
 
 const projects = [
