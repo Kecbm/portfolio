@@ -9,8 +9,10 @@ import novosDados from '../assets/27.Dados.png';
 import Api from '../assets/28.Api.png';
 import Voto from '../assets/30.Voto.png';
 import Servidor from '../assets/31.Servidor.png';
+import Csharp from "../assets/32.Csharp.png";
 
 const newProjects = [
+  { image: Csharp, title: "Csharp", description: 'Primeiros passos, lógica e dados com C# na Microsoft learn', github: 'https://github.com/Kecbm/c-sharp' },
   { image: Servidor, title: "Store", description: 'API no padrão REST com testes unitários das camadas MSC', github: 'https://github.com/Kecbm/store-manager' },
   { image: Voto, title: "BBB", description: 'Simulação da recepção, anti-fraude, contagem e auditoria dos votos do BBB', github: 'https://github.com/Kecbm/live-20220530-sistema-votacao' },
   { image: Api, title: "API", description: 'Aplicação para cadastrar, visualizar, pesquisar, editar e excluir informações', github: 'https://github.com/Kecbm/talker-manager' },
