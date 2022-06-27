@@ -8,11 +8,6 @@
   height: 415px;
   width: 87.8%;
   padding: 80px;
-}
-
-.section {
-  padding-left: 300px;
-  padding-right: 200px;
   text-align: center;
 }
 
@@ -62,7 +57,7 @@
 .seta {
   position: absolute;
   top: 380px;
-  left: 48.5%;
+  left: 44.7%;
   padding: 20px;
   text-align: center;
   animation: go-back 1.5s;

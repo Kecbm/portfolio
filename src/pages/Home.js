@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <div className="home">
-          <section className="section">
+          <section>
             <h1 className="titleHome"><a name="inicio">OLÁ, EU SOU KLECIANNY MELO</a></h1>
             {' '}
             <p className="pHome"> 
