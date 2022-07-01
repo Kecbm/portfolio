@@ -12,7 +12,7 @@ class About extends Component {
               <p className="pAbout"> 
               Olá, Eu sou Klecianny Melo, estudante de desenvolvimento web full stack e embaixadora da turma XP - Trybe, localizada em Garanhuns - Pernambuco. Fui monitora de algoritmos e programação de computadores durante minha graduação em engeharia de alimentos pela UFAPE (Universidade Federal do Agreste de Pernambuco). Também já desenvolvi diversos projetos para a web.
               {' '}
-              Sou intusiasta da tecnologia e admiro o poder transformador que o ambiente digital proporciona ao mundo. Sinta-se à vontade para entrar em contato comigo.
+              Sou entusiasta da tecnologia e admiro o poder transformador que o ambiente digital proporciona ao mundo. Sinta-se à vontade para entrar em contato comigo.
               </p>
             </div>
             <div className="skills">
