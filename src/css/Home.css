@@ -57,8 +57,7 @@
 .seta {
   position: absolute;
   top: 380px;
-  left: 50%;
-  right: 50%;
+  left: 45.2%;
   padding: 20px;
   text-align: center;
   animation: go-back 1.5s;
