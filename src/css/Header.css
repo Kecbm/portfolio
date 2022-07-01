@@ -7,20 +7,11 @@
   height: 60px;
   width: 100%;
   background-color:  #1b1b1b;
-  padding: 10px;
+  padding: 15px;
   position: fixed;
   margin-top: 0;
   z-index: 1;
 };
-
-.imgHeader {
-  border-radius: 60%;
-  height: 70px;
-}
-
-.imgHeader:hover {
-  border: solid 3px #cccccc;
-}
 
 .link {
   margin: 5px;

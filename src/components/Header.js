@@ -3,6 +3,7 @@ import '../css/Header.css';
 
 const imgStyle = {
   borderRadius: '60%',
+  marginBottom: '20px',
 };
 
 class Header extends Component {
