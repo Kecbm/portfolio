@@ -44,22 +44,3 @@
 .button:hover {
   background-color: #F5F5F5;
 }
-
-@keyframes go-back {
-  0% {
-      transform: translateY(0);
-  }
-  0% {
-      transform: translateY(60px);
-  }
-}
-
-.seta {
-  position: absolute;
-  top: 380px;
-  left: 45.2%;
-  padding: 20px;
-  text-align: center;
-  animation: go-back 1.5s;
-  animation-iteration-count: infinite;
-}
