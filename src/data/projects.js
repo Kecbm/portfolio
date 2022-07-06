@@ -18,8 +18,10 @@ import Carteira from '../assets/20.Carteira.png';
 import outroJogo from '../assets/21.Jogo.png';
 import Star from '../assets/22.Star.png';
 import Questao from '../assets/26.Questao.png';
+import Bicicleta from '../assets/34.Bicicleta.png';
 
 const projects = [
+  { image: Bicicleta, title: 'Stranger Things', description: 'Deploy de uma aplicação React e uma API Node no Heroku', deploy: 'https://kecbm-pd.herokuapp.com/', github: 'https://github.com/Kecbm/stranger-things-backend' },
   { image: Questao, title: 'Wordle', description: 'Jogo de adivinhação de uma palavra aleatória, semelhante ao Termoo', deploy: 'https://wordle-kecbm.vercel.app/', github: 'https://github.com/Kecbm/wordle' },
   { image: Star, title: 'StarWars', description: 'Lista com filtros de planetas do universo de Star Wars usando Context API e Hooks', deploy: 'https://star-wars-kecbm.vercel.app/', github: 'https://github.com/Kecbm/StarWars' },
   { image: outroJogo, title: 'Trivia', description: 'Um jogo de perguntas e respostas baseado no jogo show do milhão', deploy: 'https://trivia-kecbm.vercel.app/', github: 'https://github.com/Kecbm/trivia' },
