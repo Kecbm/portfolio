@@ -11,8 +11,10 @@ import Voto from '../assets/30.Voto.png';
 import Servidor from '../assets/31.Servidor.png';
 import Csharp from "../assets/32.Csharp.png";
 import Escrever from '../assets/33.Escrever.png';
+import Medieval from '../assets/35.Medieval.png';
 
 const newProjects = [
+  { image: Medieval, title: "Medieval Store", description: 'API utilizando Typescript e a arquitetura MSC (Models, Service e Controllers)', github: 'https://github.com/Kecbm/trybesmith' },
   { image: Escrever, title: "Blogs API", description: 'API em Node.js utilizando o pacote sequelize para criação do banco de dados', github: 'https://github.com/Kecbm/blogs-api' },
   { image: Csharp, title: "C sharp", description: 'Primeiros passos, lógica e dados com C# na Microsoft learn', github: 'https://github.com/Kecbm/c-sharp' },
   { image: Servidor, title: "Store", description: 'API no padrão REST com testes unitários das camadas MSC', github: 'https://github.com/Kecbm/store-manager' },
