@@ -4,8 +4,9 @@ import newProjects from '../data/newProjects';
 import '../css/Projects.css';
 
 const imgStyle = {
-  height: '80px',
-  width: '80px',
+  height: '100px',
+  width: '100px',
+  marginTop: '0px',
 };
 
 class Projects extends Component {
