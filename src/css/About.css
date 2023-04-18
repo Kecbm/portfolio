@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+.about {
+  position: relative;
+  top: 90px;
+  background-color: #1b1b1b;
+  height: 590px;
+  width: 100%;
+  padding: 80px;
+  text-align: center;
+}
+
+.titleAbout {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #F5F5F5;
+  font-family: Bebas Neue;
+  font-size: 65px;
+  width: 100%;
+}
+
+.pAbout {
+  text-align: justify;
+  font-family: Open Sans;
+  color: #F5F5F5;
+  font-size: 20px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-self:flex-start
+}
+
+.skills img {
+  padding: 10px;
+  width: 5%;
+}
+
+img {
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+::-webkit-scrollbar {
+  background-color: #1b1b1b;
+  display: block;
+  width: 8px;
+  overflow: auto;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #F5F5F5;
+  border-radius: 5px;
+}

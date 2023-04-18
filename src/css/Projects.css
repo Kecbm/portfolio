@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+.projects {
+  position: relative;
+  top: 90px;
+  background-color: #141414;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 80px;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-self: flex-start;
+}
+
+.card {
+  width: 200px;
+  height: 250px;
+  margin-top: 18px;
+  margin-right: 18px;
+  padding: 10px;
+  justify-content: space-between;
+  background-color:  #1b1b1b;
+  border-radius: 5px;
+}
+
+.card:hover {
+  background-color:  #292929;
+}
+
+.h1Project {
+  color: #F5F5F5;
+  font-family: Bebas Neue;
+  font-size: 60px;
+  margin-bottom: 55px;
+}
+
+.pProject {
+  text-align: center;
+  font-family: Open Sans;
+  color: #F5F5F5;
+  font-size: 14px;
+}
+
+.linkProject {
+  text-decoration: none;
+}
+
+.linkProject:visited {
+  color: #141414;
+}
+
+.buttonProject {
+  color: #F5F5F5;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  text-align: center;
+  width: 90px;
+  border: solid transparent;
+  border-radius: 5px;
+  background-color:  #cccccc;
+  color: black;
+  margin-top: 24px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.buttonProject:hover {
+  background-color: #F5F5F5;
+  color: #1b1b1b;
+}
+
+.titleProject {
+  color: #F5F5F5;
+  font-family: Bebas Neue;
+  font-size: 31px;
+}
