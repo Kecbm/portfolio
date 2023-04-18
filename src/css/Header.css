@@ -30,7 +30,7 @@
   color: #F5F5F5;
   font-size: 20px;
   padding: 11px;
-  border: 3px solid #141414;
+  background-color:  #141414;
 }
 
 .linkHeader:hover {
