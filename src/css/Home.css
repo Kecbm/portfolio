@@ -5,7 +5,7 @@
   top: 90px;
   background-color: #141414;
   color: white;
-  height: 450px;
+  height: 540px;
   width: 100%;
   padding: 80px;
   text-align: center;
@@ -43,4 +43,14 @@
 
 .button:hover {
   background-color: #F5F5F5;
+}
+
+#content-home {
+  margin-right: 50%;
+  margin-top: 50px;
+}
+
+#content-avatar {
+  margin-left: 50%;
+  margin-top: -350px;
 }
