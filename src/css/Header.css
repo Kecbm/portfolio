@@ -31,10 +31,16 @@
   font-size: 20px;
   padding: 11px;
   background-color:  #141414;
+  text-align: center;
 }
 
 .linkHeader:hover {
   border: solid 1.5px transparent;
   border-radius: 5px;
   background-color: #292929;
+}
+
+.icons-header {
+  width: 30px;
+  margin-bottom: -7px;
 }
