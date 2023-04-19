@@ -7,7 +7,7 @@ import contact from '../assets/Contato.png';
 
 const imgStyle = {
   borderRadius: '60%',
-  marginBottom: '20px',
+  marginBottom: '4px',
 };
 
 class Header extends Component {
