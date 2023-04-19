@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../css/Home.css';
 import firstAvatar from '../assets/Avatar 1.png';
+import hand from '../assets/Hand.png';
 
 class Home extends Component {
   render() {
@@ -8,7 +9,7 @@ class Home extends Component {
       <div>
         <div className="home">
           <section id="content-home">
-            <h1 className="titleHome"><a name="inicio">OLÁ! <span>👋🏽</span> 
+          <h1 className="titleHome"><a name="inicio">OLÁ! <img alt="Hand" src={hand} className="hand-home" />
             <br />
             EU SOU KLECIANNY MELO</a></h1>
             {' '}
