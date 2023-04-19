@@ -69,9 +69,8 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 <br>
 <br>
 
-- [Portfólio do Soumyajit](https://soumyajit.vercel.app/);
-- [ ] Adicionar animação a mão de Olá na Home;
-- [ ] Frases aparecendo no estilo escrita;
+- Portfólio de referência
+- [ ] Task a ser feita;
 
 <br>
 
