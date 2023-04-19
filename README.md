@@ -71,7 +71,6 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 
 - [Portfólio do Soumyajit](https://soumyajit.vercel.app/);
 - [ ] Adicionar animação a mão de Olá na Home;
-- [ ] Animação de hover embaixo dos botões do Header;
 - [ ] Frases aparecendo no estilo escrita;
 
 <br>
