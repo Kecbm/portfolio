@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import '../css/Header.css';
+import home from '../assets/Casa.png';
+import user from '../assets/Usuário.png';
+import project from '../assets/Projeto.png';
+import contact from '../assets/Contato.png';
 
 const imgStyle = {
   borderRadius: '60%',
@@ -20,13 +24,13 @@ class Header extends Component {
         />
         <h1 className="titleHeader">KLECIANNY MELO</h1>
         <nav>
-          <a href="#inicio" className="linkHeader">INÍCIO</a>
+          <a href="#inicio" className="linkHeader"><img alt="Home" src={home} className="icons-header" />{' '}INÍCIO</a>
           {' '}
-          <a href="#sobre" className="linkHeader">SOBRE</a>
+          <a href="#sobre" className="linkHeader"><img alt="Usuário" src={user} className="icons-header" />{' '}SOBRE</a>
           {' '}
-          <a href="#projetos" className="linkHeader">PROJETOS</a>
+          <a href="#projetos" className="linkHeader"><img alt="Projeto" src={project} className="icons-header" />{' '}PROJETOS</a>
           {' '}
-          <a href="#contato" className="linkHeader">CONTATO</a>
+          <a href="#contato" className="linkHeader"><img alt="Contato" src={contact} className="icons-header" />{' '}CONTATO</a>
           {' '}
         </nav>
         <div>{' '}</div>
