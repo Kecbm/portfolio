@@ -18,7 +18,7 @@ class Home extends Component {
               <ul className="dinamic">
                 <li><span>Front-end</span></li>
                 <li><span>Back-end</span></li>
-                <li><span>Web Full Stack</span></li>
+                <li><span>Web Full Stack{' '}</span></li>
               </ul>
             </div>
             <a target="_blank" href="https://www.cvkeep.com/cv/7e863938f1cc31f1755d834316835807"><button className="button">CURRICULO</button></a>
