@@ -5,7 +5,7 @@
   top: 90px;
   background-color: #141414;
   color: white;
-  height: 540px;
+  height: 638px;
   width: 100%;
   padding: 80px;
   text-align: center;
@@ -25,7 +25,7 @@
 
 #content-avatar {
   margin-left: 50%;
-  margin-top: -400px;
+  margin-top: -650px;
 }
 
 .hand-home {
@@ -92,13 +92,6 @@
   }
 }
 
-#icons-home {
-  margin-top: 50px;
+#second-avatar {
+  width: 350px;
 }
-
-.img-home {
-  width: 70px;
-  height: 70px;
-  margin-left: 20px;
-}
-
