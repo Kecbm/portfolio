@@ -7,18 +7,11 @@
   align-items: center;
   top: 90px;
   background-color: #1b1b1b;
-  height: 180px;
+  height: 10px;
   width: 100%;
-  padding: 80px;
+  padding: 35px;
   text-align: center;
   font-weight: bold;
-}
-
-.name {
-  margin-bottom: 20px;
-  font-family: Bebas Neue;
-  font-size: 50px;
-  color: #F5F5F5;
 }
 
 .description {
@@ -27,13 +20,15 @@
 
 .imgFooter {
   margin-right: 40px;
+  margin-top: 30px;
+  height: 60px;
+  width: 60px;
 }
 
 .social {
   text-align: center;
   font-family: Open Sans;
   font-size: 18px;
-  margin-top: 20px;
   color: #cccccc;
 }
 
