@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import '../css/Home.css';
 import firstAvatar from '../assets/Avatar 1.png';
 import hand from '../assets/Hand.png';
-import Linkedin from '../assets/Linkedin.png';
-import Github from '../assets/Github.png';
-import Twitter from '../assets/Twitter.png';
-import Instagram from '../assets/Instagram.png';
+import secondAvatar from '../assets/Avatar2.png';
 
 class Home extends Component {
   render() {
@@ -24,12 +21,7 @@ class Home extends Component {
               <li><span>Back-end</span></li>
               <li><span>Web Full Stack{' '}</span></li>
             </ul>
-          </div>
-          <div id="icons-home"> 
-              <a href="https://www.linkedin.com/in/kecbm/" target="_blank"><img src={ Linkedin } alt="Meu LinkedIn" height="80" width="80" className="img-home" /></a>
-              <a href="https://github.com/Kecbm" target="_blank"><img src={ Github } alt="Meu GitHub" height="80" width="80" className="img-home" /></a>
-              <a href="https://twitter.com/Kecbm" target="_blank"><img alt="Meu Twitter" src={ Twitter } height="80" width="80" className="img-home" /></a>
-              <a href="https://www.instagram.com/kecbm/" target="_blank"><img alt="Meu Instagram" src={ Instagram } height="80" width="80" className="img-home" /></a>
+            <img alt="Avatar" src={secondAvatar}  id="second-avatar" />
           </div>
           </section>
           <section id="content-avatar">
