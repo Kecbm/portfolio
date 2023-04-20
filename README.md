@@ -71,10 +71,13 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
 - [ ] Header transparente após scroll;
+- [ ] Renderizar uma página por vez, de acordo com o clique nos links do Header;
 
 - [Aakash](https://aakash-sharma.netlify.app/)
 - [ ] Elementos da tela aparecerem aos poucos durante o scroll;
-- [ ] Icone de rede social com zoom no hover;
+
+- [Aaron](https://www.aarondunphy.com/)
+- [ ] Alterar icone de rede social no hover;
 
 <br>
 
