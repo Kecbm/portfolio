@@ -69,8 +69,12 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 <br>
 <br>
 
-- Portfólio de referência
-- [ ] Task a ser feita;
+- [ ] Tema claro com botão para alternar entre ligth e dark mode;
+- [ ] Header transparente após scroll;
+
+- [Aakash](https://aakash-sharma.netlify.app/)
+- [ ] Elementos da tela aparecerem aos poucos durante o scroll;
+- [ ] Icone de rede social com zoom no hover;
 
 <br>
 
