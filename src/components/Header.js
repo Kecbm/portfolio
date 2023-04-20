@@ -4,6 +4,7 @@ import home from '../assets/Casa.png';
 import user from '../assets/Usuário.png';
 import project from '../assets/Projeto.png';
 import contact from '../assets/Contato.png';
+import { Link } from 'react-router-dom';
 
 const imgStyle = {
   borderRadius: '60%',
@@ -24,14 +25,14 @@ class Header extends Component {
         />
         <h1 className="titleHeader">KLECIANNY MELO</h1>
         <nav>
-          <a href="#inicio" className="linkHeader"><img alt="Home" src={home} className="icons-header" />{' '}INÍCIO</a>
+          <Link to="/" className="link-rout"><a href="#inicio" className="linkHeader"><img alt="Home" src={home} className="icons-header" />{' '}INÍCIO</a></Link>
           {' '}
-          <a href="#sobre" className="linkHeader"><img alt="Usuário" src={user} className="icons-header" />{' '}SOBRE</a>
+          <Link to="/about" className="link-rout"><a href="#sobre" className="linkHeader"><img alt="Usuário" src={user} className="icons-header" />{' '}SOBRE</a></Link>
           {' '}
-          <a href="#projetos" className="linkHeader"><img alt="Projeto" src={project} className="icons-header" />{' '}PROJETOS</a>
-          {' '}
+          <Link to="/projects" className="link-rout"><a href="#projetos" className="linkHeader"><img alt="Projeto" src={project} className="icons-header" />{' '}PROJETOS</a></Link>
+          {/* {' '}
           <a href="#contato" className="linkHeader"><img alt="Contato" src={contact} className="icons-header" />{' '}CONTATO</a>
-          {' '}
+          {' '} */}
         </nav>
         <div>{' '}</div>
       </div>
