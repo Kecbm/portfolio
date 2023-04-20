@@ -71,13 +71,17 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
 - [ ] Header transparente após scroll;
-- [ ] Desenvolver um Easter Egg na página NouFound;
+- [ ] Desenvolver um Easter Egg na página NotFound;
+- [ ] Boquear o scroll horizontal na página;
 
 - [Aakash](https://aakash-sharma.netlify.app/)
 - [ ] Elementos da tela aparecerem aos poucos durante o scroll;
 
 - [Aaron](https://www.aarondunphy.com/)
 - [ ] Alterar icone de rede social no hover;
+
+- [Gitmoji](https://gitmoji.dev/)
+- [ ] Meu nome colorido no hover do Head;
 
 <br>
 
