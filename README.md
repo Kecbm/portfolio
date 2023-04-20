@@ -71,7 +71,7 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
 - [ ] Header transparente após scroll;
-- [ ] Renderizar uma página por vez, de acordo com o clique nos links do Header;
+- [ ] Desenvolver um Easter Egg na página NouFound;
 
 - [Aakash](https://aakash-sharma.netlify.app/)
 - [ ] Elementos da tela aparecerem aos poucos durante o scroll;
