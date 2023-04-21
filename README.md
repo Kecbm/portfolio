@@ -69,6 +69,7 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 <br>
 <br>
 
+- [ ] Ajustar versão Mobile (retirar animação de frases, avatar com notebook e redimensionar as coisas que ficarem);
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
 - [ ] Header transparente após scroll;
 - [ ] Desenvolver um Easter Egg na página NotFound;
