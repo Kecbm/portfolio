@@ -30,9 +30,9 @@ class Header extends Component {
           <Link to="/about" className="link-rout"><a href="#sobre" className="linkHeader"><img alt="Usuário" src={user} className="icons-header" />{' '}SOBRE</a></Link>
           {' '}
           <Link to="/projects" className="link-rout"><a href="#projetos" className="linkHeader"><img alt="Projeto" src={project} className="icons-header" />{' '}PROJETOS</a></Link>
-          {/* {' '}
+          {' '}
           <a href="#contato" className="linkHeader"><img alt="Contato" src={contact} className="icons-header" />{' '}CONTATO</a>
-          {' '} */}
+          {' '}
         </nav>
         <div>{' '}</div>
       </div>
