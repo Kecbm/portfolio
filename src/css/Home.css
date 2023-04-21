@@ -5,8 +5,9 @@
   top: 90px;
   background-color: #141414;
   color: white;
-  height: 638px;
-  width: 100%;
+  /* height: 638px; */
+  height: 100vh;
+  width: 100vw;
   padding: 80px;
   text-align: center;
 }
