@@ -69,6 +69,7 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 <br>
 <br>
 
+- [ ] Ajustar heigth para 100% e fixar o footer (validar em diferentes tamanhos da tela em inspecionar e também na versão mobile como ficou);
 - [ ] Ajustar versão Mobile (retirar animação de frases, avatar com notebook e redimensionar as coisas que ficarem);
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
 - [ ] Header transparente após scroll;
