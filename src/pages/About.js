@@ -9,10 +9,10 @@ class About extends Component {
           <section>
             <div>
               <h1 className="titleAbout"><a name="sobre">SOBRE</a></h1>
-              <p className="pAbout"> 
-              Olá, Eu sou Klecianny Melo, Desenvolvedora Web Full Stack, localizada em Garanhuns - Pernambuco. Fui desenvolvedora Salesforce durante 6 meses na XP Inc. Também fui monitora de algoritmos e programação de computadores durante minha graduação em engeharia de alimentos pela UFAPE (Universidade Federal do Agreste de Pernambuco). Já desenvolvi diversos projetos para a web.
+              <p className="text-about"> 
+              Olá, Eu sou Klecianny Melo, sou Desenvolvedora Web Full Stack, tenho 27 anos e estou localizada em Garanhuns - Pernambuco.
               {' '}
-              Sou entusiasta da tecnologia e admiro o poder transformador que o ambiente digital proporciona ao mundo. Sinta-se à vontade para entrar em contato comigo.
+              Sou apaixonada por tecnologia e admiro a transformação que o ambiente digital proporciona ao mundo. Sinta-se à vontade para entrar em contato comigo.
               </p>
             </div>
             <div className="skills">
@@ -49,6 +49,20 @@ class About extends Component {
               <img title="Mocha" alt="Mocha" width="60" height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" />
               <img title="Sequelize" alt="Sequelize" width="60" height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />
               <img title="PHP" alt="PHP" width="60" height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+           </div>
+           <div className="list-about">
+            <h1 className="titleAbout">Atuação Profissional</h1>
+            <ul className="text-about">
+              <li>🏦 Software Engineer 1 - XP Inc. (09/2022 - 03/2023)</li>
+              <li>🎷 Saxofonista na Orquestra Manoel Rabelo - Prefeitura Municipal de Garanhuns (01/2017 - 12/2020)</li>
+            </ul>
+           </div>
+           <div className="list-about">
+            <h1 className="titleAbout">Formação Acadêmica</h1>
+            <ul className="text-about">
+              <li>🖥 Desenvolvimento Web Full Stack - Trybe (2021 - 2022)</li>
+              <li>👩🏽‍🔬 Engenharia de Alimentos - UFAPE (2014 - 2021)</li>
+            </ul>
            </div>
           </section>
         </div>
