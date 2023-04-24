@@ -26,7 +26,7 @@
 
 #content-avatar {
   margin-left: 50%;
-  margin-top: -650px;
+  margin-top: -800px;
 }
 
 .hand-home {
@@ -93,6 +93,7 @@
   }
 }
 
-#second-avatar {
-  width: 350px;
+#avatar-home {
+  height: 550px;
+  width: 550px;
 }
