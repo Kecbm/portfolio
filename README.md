@@ -90,4 +90,4 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 
 ---
 
-Projeto desenvolvido por [Klecianny Melo](https://www.linkedin.com/in/kecbm/) 😁
+Portfólio desenvolvido por [Klecianny Melo](https://www.linkedin.com/in/kecbm/) 😁
