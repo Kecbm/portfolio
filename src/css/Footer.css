@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
 
-.footer {
+footer {
   position: relative;
   display: flex;
   justify-content: center;
@@ -8,28 +8,22 @@
   top: 90px;
   background-color: #1b1b1b;
   height: 10px;
-  width: 100vw;
+  width: 104.2vw;
   padding: 35px;
   text-align: center;
-  font-weight: bold;
   bottom: 0;
 }
 
-.description {
-  margin-bottom: 25px;
-}
-
-.imgFooter {
-  margin-right: 40px;
-  margin-top: 30px;
-  height: 60px;
-  width: 60px;
-}
-
-.social {
+#text-footer {
   text-align: center;
   font-family: Open Sans;
   font-size: 18px;
   color: #cccccc;
+}
+
+#name-footer {
+  color: #F5F5F5;
+  font-family: Bebas Neue;
+  font-size: 25px;
 }
 
