@@ -5,14 +5,14 @@
   top: 90px;
   /* background-color: #1b1b1b; */
   background-color: #141414;
-  height: 100vh;
+  height: 130vh;
   width: 100vw;
   padding: 80px;
   text-align: center;
 }
 
 .titleAbout {
-  padding-top: 20px;
+  padding-top: 100px;
   padding-bottom: 20px;
   color: #F5F5F5;
   font-family: Bebas Neue;
@@ -20,27 +20,28 @@
   width: 100%;
 }
 
-.pAbout {
+.text-about {
   text-align: justify;
   font-family: Open Sans;
   color: #F5F5F5;
-  font-size: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
-.skills {
+/* .skills {
   display: flex;
   flex-wrap: wrap;
   justify-self:flex-start
-}
+} */
 
 .skills img {
   padding: 10px;
   width: 5%;
 }
 
-img {
+/* img {
   margin-top: 5px;
-}
+} */
 
 ::-webkit-scrollbar {
   background-color: #1b1b1b;
@@ -53,4 +54,16 @@ img {
 ::-webkit-scrollbar-thumb {
   background-color: #F5F5F5;
   border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  text-align: left;
+}
+
+.list-about {
+  text-align: center;
 }
