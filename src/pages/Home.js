@@ -7,27 +7,25 @@ import secondAvatar from '../assets/Avatar2.png';
 class Home extends Component {
   render() {
     return (
-      <div>
-        <div className="home">
-          <section id="content-home">
-          <h1 className="titleHome"><a name="inicio">OLÁ! <img alt="Hand" src={hand} className="hand-home" />
-          <br />
-          EU SOU KLECIANNY MELO</a></h1>
-          {' '}
-          <div className="text-dinamic">
-            <p className="static">Desenvolvedora</p>
-            <ul className="dinamic">
-              <li><span>Front-end</span></li>
-              <li><span>Back-end</span></li>
-              <li><span>Web Full Stack{' '}</span></li>
-            </ul>
-            <img alt="Avatar" src={secondAvatar}  id="second-avatar" />
-          </div>
-          </section>
-          <section id="content-avatar">
-            <img alt="Avatar" src={firstAvatar} />
-          </section>
+      <div className="home">
+        <section id="content-home">
+        <h1 className="titleHome"><a name="inicio">OLÁ! <img alt="Hand" src={hand} className="hand-home" />
+        <br />
+        EU SOU KLECIANNY MELO</a></h1>
+        {' '}
+        <div className="text-dinamic">
+          <p className="static">Desenvolvedora</p>
+          <ul className="dinamic">
+            <li><span>Front-end</span></li>
+            <li><span>Back-end</span></li>
+            <li><span>Web Full Stack{' '}</span></li>
+          </ul>
+          <img alt="Avatar" src={secondAvatar}  id="avatar-home" />
         </div>
+        </section>
+        <section id="content-avatar">
+          <img alt="Avatar" src={firstAvatar} id="avatar-home" />
+        </section>
       </div>
     );
   }
