@@ -11,7 +11,7 @@ class Contact extends Component {
   render() {
     return (
       <div id="contact">
-        <h1 id="title-contact">Contatos</h1>
+        <h1 id="title-contact">Contato</h1>
         <a href="https://www.linkedin.com/in/kecbm/" target="_blank"><img src={ Linkedin } alt="Meu LinkedIn" height="80" width="80" className="img-contact" /></a>
         <a href="https://github.com/Kecbm" target="_blank"><img src={ Github } alt="Meu GitHub" height="80" width="80" className="img-contact" /></a>
         <a href="https://twitter.com/Kecbm" target="_blank"><img alt="Meu Twitter" src={ Twitter } height="80" width="80" className="img-contact" /></a>
