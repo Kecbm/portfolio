@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../css/Home.css';
 import firstAvatar from '../assets/Avatar 1.png';
 import hand from '../assets/Hand.png';
-import secondAvatar from '../assets/Avatar2.png';
 
 class Home extends Component {
   render() {
@@ -20,7 +19,6 @@ class Home extends Component {
             <li><span>Back-end</span></li>
             <li><span>Web Full Stack{' '}</span></li>
           </ul>
-          <img alt="Avatar" src={secondAvatar}  id="avatar-home" />
         </div>
         </section>
         <section id="content-avatar">
