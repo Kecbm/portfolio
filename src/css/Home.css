@@ -13,11 +13,11 @@
 }
 
 .titleHome {
-  padding-top: 70px;
+  padding-top: 25%;
   padding-bottom: 30px;
   color: #F5F5F5;
   font-family: Bebas Neue;
-  font-size: 65px;
+  font-size: 130px;
 }
 
 #content-home {
@@ -26,11 +26,11 @@
 
 #content-avatar {
   margin-left: 50%;
-  margin-top: -800px;
+  margin-top: -25%;
 }
 
 .hand-home {
-  width: 70px;
+  width: 100px;
 }
 
 .text-dinamic .static {
