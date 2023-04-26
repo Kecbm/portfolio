@@ -80,3 +80,26 @@
   font-family: Bebas Neue;
   font-size: 31px;
 }
+
+/* 320px — 480px: dispositivos móveis */
+@media (max-width: 480px) {
+  .projects {
+    padding: 0px;
+    top: 60px;
+    left: 0;
+    height: 2210vh;
+    width: 100vw;
+  }
+
+  .h1Project {
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .project-list {
+    align-items: center;
+    justify-content: center;
+  }
+}
