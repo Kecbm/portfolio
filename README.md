@@ -84,7 +84,9 @@ Breakpoints comuns em termos de larguras dos dispositivos:
 - [ ] Paginação em Projects (10 cards por página) - EM ANDAMENTO;
 
 - [Gitmoji](https://gitmoji.dev/)
-- [ ] Animação na imagem do card na tela Projects;
+Tela Projects:
+- [ ] Background color da imagem do card;
+- [ ] Animação na imagem do card;
 
 - [Aakash](https://aakash-sharma.netlify.app/)
 - [ ] Elementos da tela aparecerem aos poucos durante o scroll;
