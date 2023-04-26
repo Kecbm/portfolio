@@ -98,3 +98,38 @@
   height: 550px;
   width: 550px;
 }
+
+/* 320px — 480px: dispositivos móveis */
+@media (max-width: 480px) {
+  .home {
+    padding: 0px;
+    top: 60px;
+    left: 0;
+  }
+
+  #content-home {
+    margin-right: 0;
+  }
+
+  .titleHome {
+    font-size: 35px;
+  }
+
+  .hand-home {
+    width: 40px;
+  }
+
+  .text-dinamic {
+    display: none;
+  }
+
+  #avatar-home {
+    width: 250px;
+    height: 250px;
+  }
+
+  #content-avatar {
+    margin-left: 0%;
+    margin-top: -8%;
+  }
+}
