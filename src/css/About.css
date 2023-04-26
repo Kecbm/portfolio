@@ -64,3 +64,30 @@ ul li {
 .list-about {
   text-align: center;
 }
+
+/* 320px — 480px: dispositivos móveis */
+@media (max-width: 480px) {
+  .about {
+    padding: 0px;
+    top: 60px;
+    left: 0;
+    height: 350vh;
+    width: 100vw;
+  }
+
+  .titleAbout {
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  .text-about {
+    font-size: 18px;
+  }
+
+  .skills img {
+    padding: 2px;
+    height: 50px;
+    width: 50px;
+  }
+}
