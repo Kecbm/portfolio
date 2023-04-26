@@ -109,3 +109,18 @@ footer {
     color:#AC92EC;
   }
 }
+
+/* 320px — 480px: dispositivos móveis */
+@media (max-width: 480px) {
+  footer {
+    padding: 0px;
+  }
+
+  #text-footer {
+    font-size: 15px;
+  }
+
+  #name-footer {
+    font-size: 18px;
+  }
+}
