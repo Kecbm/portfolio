@@ -35,3 +35,35 @@
     height: 550px;
     width: 550px;
 }
+
+/* 320px — 480px: dispositivos móveis */
+@media (max-width: 480px) {
+    #contact {
+      padding: 0px;
+      top: 60px;
+      left: 0;
+    }
+
+    #title-contact {
+        font-size: 35px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .img-contact {
+        margin-right: 10px;
+        margin-top: 30px;
+        height: 50px;
+        width: 50px;
+    }
+
+    #third-avatar img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #third-avatar {
+        margin-top: -0%;
+    }
+  }
