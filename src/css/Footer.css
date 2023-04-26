@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
 
 footer {
-  position: relative;
+  position: absolute;
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  top: 90%;
+  /* top: 150%; */
   /* background-color: #1b1b1b; */
   height: 5px;
   width: 100vw;
   padding: 30px;
   padding-top: 5px;
   text-align: center;
-  /* bottom: 0; */
+  top: 1150px;
   /* position: fixed; */
 }
 
