@@ -7,8 +7,7 @@ import contact from '../assets/Contato.png';
 import { Link } from 'react-router-dom';
 
 const imgStyle = {
-  borderRadius: '60%',
-  marginBottom: '4px',
+  borderRadius: '60%'
 };
 
 class Header extends Component {
