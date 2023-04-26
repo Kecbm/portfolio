@@ -69,12 +69,9 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 <br>
 <br>
 
-- [ ] Ajustar versão Mobile e Tablet (retirar animação de frases, avatar com notebook e redimensionar as coisas que ficarem);
-
 Breakpoints comuns em termos de larguras dos dispositivos:
-[ ] 320px — 480px: dispositivos móveis
-[ ] 481px — 768px: iPads, tablets
-[ ] 769px — 1024px: telas pequenas, laptops
+- [ ] 481px — 768px: iPads, tablets
+- [ ] 769px — 1024px: telas pequenas, laptops
 
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
 - [ ] Header transparente após scroll;
