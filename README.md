@@ -81,7 +81,7 @@ Breakpoints comuns em termos de larguras dos dispositivos:
 - [ ] Desenvolver um Easter Egg na página NotFound;
 - [ ] Boquear o scroll horizontal na página;
 - [ ] Implementar o Loading;
-- [ ] Paginação em Projects (10 cards por página);
+- [ ] Paginação em Projects (10 cards por página) - EM ANDAMENTO;
 
 - [Gitmoji](https://gitmoji.dev/)
 - [ ] Animação na imagem do card na tela Projects;
