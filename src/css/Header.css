@@ -152,3 +152,28 @@ nav .linkHeader:hover::after {
 .link-rout {
   text-decoration: none;
 }
+
+/* 320px — 480px: dispositivos móveis */
+@media (max-width: 480px) {
+  .Header {
+    padding: 0px;
+  }
+
+  .imgHeader {
+    display: none;
+  }
+
+  .titleHeader {
+    display: none;
+  }
+
+  .linkHeader {
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 10px;
+  }
+
+  .icons-header {
+    display: none;
+  }
+}
