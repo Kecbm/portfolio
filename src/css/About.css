@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;600&display=swap');
 
 .about {
   position: relative;
@@ -26,6 +26,10 @@
   color: #F5F5F5;
   font-size: 30px;
   text-align: center;
+}
+
+.text-bold {
+  font-weight: 600;
 }
 
 /* .skills {
@@ -59,6 +63,7 @@ ul {
 
 ul li {
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .list-about {
@@ -71,7 +76,7 @@ ul li {
     padding: 0px;
     top: 60px;
     left: 0;
-    height: 350vh;
+    height: 420vh;
     width: 100vw;
   }
 
@@ -83,6 +88,7 @@ ul li {
 
   .text-about {
     font-size: 18px;
+    padding: 25px;
   }
 
   .skills img {
