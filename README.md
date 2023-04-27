@@ -70,7 +70,6 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 <br>
 
 Breakpoints comuns em termos de larguras dos dispositivos:
-- [ ] 481px — 768px: iPads, tablets
 - [ ] 769px — 1024px: telas pequenas, laptops
 
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
