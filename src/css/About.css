@@ -97,3 +97,31 @@ ul li {
     width: 50px;
   }
 }
+
+/* 481px — 768px: iPads, tablets */
+@media (max-width: 768px) {
+  .about {
+    padding: 0px;
+    top: 60px;
+    left: 0;
+    height: 260vh;
+    width: 100vw;
+  }
+
+  .titleAbout {
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  .text-about {
+    font-size: 20px;
+    padding: 25px;
+  }
+
+  .skills img {
+    padding: 5px;
+    height: 55px;
+    width: 55px;
+  }
+}
