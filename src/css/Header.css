@@ -202,3 +202,19 @@ nav .linkHeader:hover::after {
     width: 25px;
   }
 }
+
+/* 769px — 1024px: telas pequenas, laptops */
+@media (max-width: 1024px) {
+  .Header {
+    padding: 10px;
+  }
+
+  .titleHeader {
+    display: none;
+  }
+
+  .linkHeader {
+    margin-right: 5px;
+    padding: 10px;
+  }
+}
