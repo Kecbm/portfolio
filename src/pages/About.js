@@ -56,16 +56,16 @@ class About extends Component {
           <div className="list-about">
           <h1 className="titleAbout">Atuação Profissional</h1>
           <ul className="text-about">
-            <li>🏦 Software Engineer 1 - XP Inc. (09/2022 - 03/2023)</li>
-            <li>🎷 Saxofonista na Orquestra Manoel Rabelo - Prefeitura Municipal de Garanhuns (01/2017 - 12/2020)</li>
+            <li>🏦 <span className="text-bold">Software Engineer 1</span> - XP Inc. (09/2022 - 03/2023)</li>
+            <li>🎷 <span className="text-bold">Saxofonista na Orquestra Manoel Rabelo</span> - Prefeitura Municipal de Garanhuns (01/2017 - 12/2020)</li>
           </ul>
           </div>
           <div className="list-about">
           <h1 className="titleAbout">Formação Acadêmica</h1>
           <ul className="text-about">
-            <li>📱 Grupo de Estudos e Desenvolvimento Android - Google Developer Group Poços de Caldas (04/2023)</li>
-            <li>🖥 Desenvolvimento Web Full Stack - Trybe (10/2021 - 12/2022)</li>
-            <li>👩🏽‍🔬 Engenharia de Alimentos - Universidade Federal do Agreste de Pernambuco (01/2014 - 05/2021)</li>
+            <li>📱 <span className="text-bold">Grupo de Estudos e Desenvolvimento Android</span> - Google Developer Group Poços de Caldas (04/2023)</li>
+            <li>🖥 <span className="text-bold">Desenvolvimento Web Full Stack</span> - Trybe (10/2021 - 12/2022)</li>
+            <li>👩🏽‍🔬 <span className="text-bold">Engenharia de Alimentos</span> - Universidade Federal do Agreste de Pernambuco (01/2014 - 05/2021)</li>
           </ul>
           </div>
           <img alt="Avatar" src={secondAvatar}  id="avatar-home" />
