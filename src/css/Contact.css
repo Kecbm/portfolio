@@ -66,4 +66,36 @@
     #third-avatar {
         margin-top: -0%;
     }
-  }
+}
+
+/* 481px — 768px: iPads, tablets */
+@media (max-width: 768px) {
+    #contact {
+      padding: 0px;
+      top: 60px;
+      left: 0;
+    }
+
+    #title-contact {
+        font-size: 45px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .img-contact {
+        margin-right: 10px;
+        margin-top: 30px;
+        height: 60px;
+        width: 60px;
+    }
+
+    #third-avatar img {
+        width: 350px;
+        height: 350px;
+    }
+
+    #third-avatar {
+        margin-top: 18%;
+    }
+}
