@@ -177,3 +177,28 @@ nav .linkHeader:hover::after {
     display: none;
   }
 }
+
+/* 481px — 768px: iPads, tablets */
+@media (max-width: 768px) {
+  .Header {
+    padding: 0px;
+  }
+
+  .imgHeader {
+    display: none;
+  }  
+
+  .titleHeader {
+    display: none;
+  }
+
+  .linkHeader {
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 10px;
+  }
+
+  .icons-header {
+    width: 25px;
+  }
+}
