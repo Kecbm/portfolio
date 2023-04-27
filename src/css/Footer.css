@@ -131,3 +131,10 @@ footer {
     padding: 0px;
   }
 }
+
+/* 769px — 1024px: telas pequenas, laptops */
+@media (max-width: 1024px) {
+  footer {
+    padding: 0px;
+  }
+}
