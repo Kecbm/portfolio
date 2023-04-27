@@ -103,3 +103,27 @@
     justify-content: center;
   }
 }
+
+/* 481px — 768px: iPads, tablets */
+@media (max-width: 768px) {
+  .projects {
+    padding: 0px;
+    top: 60px;
+    left: 0;
+    height:710vh;
+    width: 100vw;
+  }
+
+  .h1Project {
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .project-list {
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+  }
+}
