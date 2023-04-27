@@ -12,14 +12,15 @@ class Home extends Component {
         <br />
         EU SOU KLECIANNY MELO</a></h1>
         {' '}
-        <div className="text-dinamic">
+        {/* <div className="text-dinamic">
           <p className="static">Desenvolvedora</p>
           <ul className="dinamic">
             <li><span>Front-end</span></li>
             <li><span>Back-end</span></li>
             <li><span>Web Full Stack{' '}</span></li>
+            <li><span>Android</span></li>
           </ul>
-        </div>
+        </div> */}
         </section>
         <section id="content-avatar">
           <img alt="Avatar" src={firstAvatar} id="avatar-home" />
