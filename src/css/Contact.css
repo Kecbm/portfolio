@@ -99,3 +99,35 @@
         margin-top: 18%;
     }
 }
+
+/* 769px — 1024px: telas pequenas, laptops */
+@media (max-width: 1024px) {
+    #contact {
+      padding: 0px;
+      top: 80px;
+      left: 0;
+    }
+
+    #title-contact {
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .img-contact {
+        margin-right: 10px;
+        margin-top: 30px;
+        height: 70px;
+        width: 70px;
+    }
+
+    #third-avatar img {
+        width: 450px;
+        height: 450px;
+    }
+
+    #third-avatar {
+        margin-top: 18%;
+    }
+}
