@@ -26,13 +26,13 @@
 
 #content-avatar {
   margin-left: 50%;
-  margin-top: -25%;
+  margin-top: -20%;
 }
 
 .hand-home {
   width: 100px;
 }
-
+/* 
 .text-dinamic .static {
   margin-right: 500px;
   margin-bottom: -85px;
@@ -92,7 +92,7 @@
     left: 100%;
     margin: 0 -35px 0 35px;
   }
-}
+} */
 
 #avatar-home {
   height: 550px;
