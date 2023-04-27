@@ -124,3 +124,10 @@ footer {
     font-size: 18px;
   }
 }
+
+/* 481px — 768px: iPads, tablets */
+@media (max-width: 768px) {
+  footer {
+    padding: 0px;
+  }
+}
