@@ -133,3 +133,39 @@
     margin-top: -8%;
   }
 }
+
+/* 481px — 768px: iPads, tablets */
+@media (max-width: 768px) {
+  .home {
+    padding: 0px;
+    top: 60px;
+    left: 0;
+    right: 0;
+  }
+
+  #content-home {
+    margin-right: 0;
+  }
+
+  .titleHome {
+    font-size: 55px;
+  }
+
+  .hand-home {
+    width: 50px;
+  }
+
+  .text-dinamic {
+    display: none;
+  }
+
+  #avatar-home {
+    width: 350px;
+    height: 350px;
+  }
+
+  #content-avatar {
+    margin-left: 0%;
+    margin-top: 8%;
+  }
+}
