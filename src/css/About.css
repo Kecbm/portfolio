@@ -125,3 +125,31 @@ ul li {
     width: 55px;
   }
 }
+
+/* 769px — 1024px: telas pequenas, laptops */
+@media (max-width: 1024px) {
+  .about {
+    padding: 0px;
+    top: 80px;
+    left: 0;
+    height: 200vh;
+    width: 100vw;
+  }
+
+  .titleAbout {
+    font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+
+  .text-about {
+    font-size: 25px;
+    padding: 25px;
+  }
+
+  .skills img {
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+  }
+}
