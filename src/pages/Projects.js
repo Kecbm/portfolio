@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import projects from '../data/projects';
 import newProjects from '../data/newProjects';
 import '../css/Projects.css';
 
@@ -21,17 +20,9 @@ class Projects extends Component {
                 <img src={ project.image } alt={ project.title } style={ imgStyle }/>
                 <h3 className="titleProject">{ project.title }</h3>
                 <p className="pProject">{ project.description }</p>
-                <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject">REPOSITÓRIO</a></button>
-              </div>
-            ))
-          }
                 {
-            projects.map((project) => (
-              <div key={ project.title } className="card">
-                <img src={ project.image } alt={ project.title } style={ imgStyle }/>
-                <h3 className="titleProject">{ project.title }</h3>
-                <p className="pProject">{ project.description }</p>
-                <button className="buttonProject"><a href={ project.deploy } target="_blank" className="linkProject">APLICAÇÃO</a></button>
+                  project.deploy ? <button className="buttonProject"><a href={ project.deploy } target="_blank" className="linkProject">APLICAÇÃO</a></button> : null
+                }
                 <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject">REPOSITÓRIO</a></button>
               </div>
             ))
