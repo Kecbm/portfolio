@@ -34,8 +34,16 @@ import Escrever from '../assets/33.Escrever.png';
 import Bicicleta from '../assets/34.Bicicleta.png';
 import Medieval from '../assets/35.Medieval.png';
 import Dragao from '../assets/36.Dragao.png';
+import Acoes from '../assets/37.Acoes.png';
+import Twitter from '../assets/38.Twitter.png';
+import CRM from '../assets/39.CRM.png';
+import BlogPost from '../assets/40.BlogPost.png';
 
 const newProjects = [
+  { image: BlogPost, title: "Meus Blog Posts", description: 'Repositório destinado a documentar todos os meus Blog Posts', github: 'https://github.com/Kecbm/blog-posts' },
+  { image: CRM, title: "CRM", description: 'CRUD full stack de empresas utilizando React no frontend e PHP no backend', github: 'https://github.com/Kecbm/react-php' },
+  { image: Twitter, title: "Tryitter", description: 'Rede social onde alunos de tecnologia podem se comunicar', github: 'https://github.com/Kecbm/Tryitter' },
+  { image: Acoes, title: "API finance", description: 'API que simula uma corretora de ações, com venda e compra de ativos', github: 'https://github.com/Kecbm/api-finance' },
   { image: Dragao, title: "Dragons", description: 'Aplicação dos princípios de arquitetura SOLID e POO em uma estrutura de jogos RPG', github: 'https://github.com/Kecbm/trybers-and-dragons' },
   { image: Medieval, title: "Medieval Store", description: 'API utilizando Typescript e a arquitetura MSC (Models, Service e Controllers)', github: 'https://github.com/Kecbm/trybesmith' },
   { image: Bicicleta, title: 'Stranger Things', description: 'Deploy de uma aplicação frontend React e backend Node no Heroku', github: 'https://github.com/Kecbm/stranger-things-backend' },
