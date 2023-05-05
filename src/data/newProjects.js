@@ -38,8 +38,16 @@ import Acoes from '../assets/37.Acoes.png';
 import Twitter from '../assets/38.Twitter.png';
 import CRM from '../assets/39.CRM.png';
 import BlogPost from '../assets/40.BlogPost.png';
+import Estadio from '../assets/41.Estadio.png';
+import Cesta from '../assets/42.Cesta.png';
+import Venda from '../assets/43.Venda.png';
+import Cerveja from '../assets/44.Cerveja.png';
 
 const newProjects = [
+  { image: Cerveja, title: "Delivery APP", description: 'Aplicação Full Stack de uma plataforma de delivery de cerveja', github: 'https://github.com/Kecbm/delivery-app' },
+  { image: Venda, title: "Car Shop", description: 'API em TypeScript com CRUD de veículo e testes das camadas MSC', github: 'https://github.com/Kecbm/car-shop' },
+  { image: Cesta, title: "Commerce", description: 'Queries para realizar consultas a um banco de dados MongoDB', github: 'https://github.com/Kecbm/commerce' },
+  { image: Estadio, title: "TFC", description: 'Aplicação full stack com uma API em TypeScript para um site informativo de futebol', github: 'https://github.com/Kecbm/tfc' },
   { image: BlogPost, title: "Meus Blog Posts", description: 'Repositório destinado a documentar todos os meus Blog Posts', github: 'https://github.com/Kecbm/blog-posts' },
   { image: CRM, title: "CRM", description: 'CRUD full stack de empresas utilizando React no frontend e PHP no backend', github: 'https://github.com/Kecbm/react-php' },
   { image: Twitter, title: "Tryitter", description: 'Rede social onde alunos de tecnologia podem se comunicar', github: 'https://github.com/Kecbm/Tryitter' },
