@@ -25,17 +25,15 @@ class About extends Component {
             <img title="TypeScript" alt="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
             <img title="Python" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
             <img title="C Sharp" alt="C Sharp" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" />
-            <img title="Kotlin" alt="Kotlin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+            <img title="PHP" alt="PHP" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
             <img title="Linux" alt="Linux" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
             <img title="Debian" alt="Debian" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" />
-            <img title="Android" alt="Android" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" />
             <img title="Terminal" alt="Terminal" src="https://cdn.svgporn.com/logos/terminal.svg" />
             <img title="Git" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
             <img title="GitHub" alt="GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
             <img title="NPM" alt="NPM" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
             <img title="Eslint" alt="Eslint" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" />
             <img title="Vscode" alt="Vscode" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-            <img title="Adroid Studio" alt="Adroid Studio" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" />
             <img title="Vercel" alt="Vercel" src="https://www.svgrepo.com/show/327408/logo-vercel.svg" />
             <img title="Heroku" alt="Heroku" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" />
             <img title="Trello" alt="Trello" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" />
@@ -51,7 +49,6 @@ class About extends Component {
             <img title="MongoDB" alt="MongoDB" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
             <img title="Mocha" alt="Mocha" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg" />
             <img title="Sequelize" alt="Sequelize" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" />
-            <img title="PHP" alt="PHP" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
           </div>
           <div className="list-about">
           <h1 className="titleAbout">Atuação Profissional</h1>
@@ -63,7 +60,6 @@ class About extends Component {
           <div className="list-about">
           <h1 className="titleAbout">Formação Acadêmica</h1>
           <ul className="text-about">
-            <li>📱 <span className="text-bold">Grupo de Estudos e Desenvolvimento Android</span> - Google Developer Group Poços de Caldas (04/2023)</li>
             <li>🖥 <span className="text-bold">Desenvolvimento Web Full Stack</span> - Trybe (10/2021 - 12/2022)</li>
             <li>👩🏽‍🔬 <span className="text-bold">Engenharia de Alimentos</span> - Universidade Federal do Agreste de Pernambuco (01/2014 - 05/2021)</li>
           </ul>
