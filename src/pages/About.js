@@ -10,9 +10,7 @@ class About extends Component {
           <div>
             <h1 className="titleAbout"><a name="sobre">SOBRE</a></h1>
             <p className="text-about"> 
-            Olá, Eu sou Klecianny Melo, sou Desenvolvedora Web Full Stack, tenho 27 anos e estou localizada em Garanhuns - Pernambuco.
-            {' '}
-            Sou apaixonada por tecnologia e admiro a transformação que o ambiente digital proporciona ao mundo. Sinta-se à vontade para entrar em contato comigo.
+            Olá, Eu sou Klecianny Melo, tenho 27 anos e moro em Garanhuns, Pernambuco. Sou paixonada por tecnologia e acredito no poder da educação para transformar vidas. Além disso, pratico ciclismo e crossfit para me manter saudável, gosto de ler livros de diversas categorias e jogar videogame. Participo ativamente da Bolha Dev no Twitter, uma comunidade de desenvolvedores que compartilha conhecimentos e experiências sobre o universo tecnológico.
             </p>
           </div>
           <div className="skills">
@@ -53,6 +51,7 @@ class About extends Component {
           <div className="list-about">
           <h1 className="titleAbout">Atuação Profissional</h1>
           <ul className="text-about">
+            <li>⚡ <span className="text-bold">Desenvolvedora PHP Full Stack</span> - BR24 (05/2023)</li>
             <li>🏦 <span className="text-bold">Software Engineer 1</span> - XP Inc. (09/2022 - 03/2023)</li>
             <li>🎷 <span className="text-bold">Saxofonista na Orquestra Manoel Rabelo</span> - Prefeitura Municipal de Garanhuns (01/2017 - 12/2020)</li>
           </ul>
