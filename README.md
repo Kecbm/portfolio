@@ -90,6 +90,9 @@ Tela Projects:
 - [Aaron](https://www.aarondunphy.com/)
 - [ ] Alterar icone de rede social no hover;
 
+- [Vinicius](https://portfolio-jade-omega-61.vercel.app/)
+- [ ] Implementar página de artigos que eu escrevi e outros materiais que criei/fiz parte;
+
 <br>
 
 <p align="right"><a href="#top">Voltar ao topo ☝</a></p>
