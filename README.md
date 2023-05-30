@@ -76,7 +76,7 @@ Breakpoints comuns em termos de larguras dos dispositivos:
 - [ ] Header transparente após scroll;
 - [ ] Desenvolver um Easter Egg na página NotFound;
 - [ ] Boquear o scroll horizontal na página;
-- [ ] Implementar o Loading;
+- [ ] Implementar o Loading (analisar se dá pra incluir meu Avatar);
 - [ ] Paginação em Projects (10 cards por página) - EM ANDAMENTO;
 
 - [Gitmoji](https://gitmoji.dev/)
