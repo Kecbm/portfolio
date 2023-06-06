@@ -93,6 +93,9 @@ Tela Projects:
 - [Vinicius](https://portfolio-jade-omega-61.vercel.app/)
 - [ ] Implementar página de artigos que eu escrevi e outros materiais que criei/fiz parte;
 
+- [Caferati](https://caferati.me/portfolio)
+- [ ] Botões que filtram os projetos por stack (Todos, Frontend, Backend, NodeJS, React, HTML, JavaScript e etc);
+
 <br>
 
 <p align="right"><a href="#top">Voltar ao topo ☝</a></p>
