@@ -91,6 +91,10 @@ ul li {
     padding: 25px;
   }
 
+  .skills {
+    padding: 25px;
+  }
+
   .skills img {
     padding: 2px;
     height: 50px;
@@ -119,6 +123,10 @@ ul li {
     padding: 25px;
   }
 
+  .skills {
+    padding: 25px;
+  }
+
   .skills img {
     padding: 5px;
     height: 55px;
@@ -144,6 +152,10 @@ ul li {
 
   .text-about {
     font-size: 25px;
+    padding: 25px;
+  }
+
+  .skills {
     padding: 25px;
   }
 
