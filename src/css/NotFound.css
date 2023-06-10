@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+#not-found {
+    position: relative;
+    top: 90px;
+    background-color: #141414;
+    color: white;
+    /* height: 638px; */
+    height: 100vh;
+    width: 100vw;
+    padding: 80px;
+    text-align: center;
+}

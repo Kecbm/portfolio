@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Footer from './pages/Footer';
 import Contact from './pages/Contact';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           <Route exact path="/about" element={ <About /> } />
           <Route exact path="/projects" element={ <Projects /> } />
           <Route exact path="/contact" element={ <Contact /> } />
-          {/* <Route path="*" element={ NotFound } /> */}
+          <Route path="*" element={ NotFound } />
         </Routes>
         <Footer />
       </BrowserRouter>
