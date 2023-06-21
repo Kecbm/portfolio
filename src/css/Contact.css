@@ -7,7 +7,8 @@
     color: white;
     /* height: 638px; */
     height: 100vh;
-    width: 100vw;
+    min-height: fit-content;
+    max-width: 100%;
     padding: 80px;
     text-align: center;
 }
