@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  width: 100%;
+  max-width: 100%;
+  width: 100vw;
   background-color: #1b1b1b;
   padding: 15px;
   position: fixed;

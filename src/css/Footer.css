@@ -9,6 +9,10 @@ footer {
   /* background-color: #1b1b1b; */
   height: 5px;
   width: 100vw;
+  max-width: 100%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
   padding: 30px;
   padding-top: 5px;
   text-align: center;
