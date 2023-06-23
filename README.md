@@ -78,6 +78,7 @@ Breakpoints comuns em termos de larguras dos dispositivos:
 - [ ] Boquear o scroll horizontal na página;
 - [ ] Implementar o Loading (analisar se dá pra incluir meu Avatar);
 - [ ] Paginação em Projects (10 cards por página) - EM ANDAMENTO;
+- [ ] Implementar a página de cards de Blog Posts (adicionar em ordem cronologica);
 
 - [Gitmoji](https://gitmoji.dev/)
 Tela Projects:
