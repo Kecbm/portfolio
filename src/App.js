@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import Footer from './pages/Footer';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
+import BlogPosts from './pages/BlogPosts';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/" element={ <Home /> } />
           <Route exact path="/about" element={ <About /> } />
           <Route exact path="/projects" element={ <Projects /> } />
+          <Route exact path="/blogposts" element={ <BlogPosts /> } />
           <Route exact path="/contact" element={ <Contact /> } />
           <Route path="*" element={ NotFound } />
         </Routes>
