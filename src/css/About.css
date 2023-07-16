@@ -78,9 +78,9 @@ ul li {
     padding: 0px;
     top: 60px;
     left: 0;
-    height: 420vh;
+    /* height: 420vh;
     width: 100vw;
-    max-width: 100%;
+    max-width: 100%; */
   }
 
   .titleAbout {
@@ -111,9 +111,9 @@ ul li {
     padding: 0px;
     top: 60px;
     left: 0;
-    height: 260vh;
+    /* height: 260vh;
     width: 100vw;
-    max-width: 100%;
+    max-width: 100%; */
   }
 
   .titleAbout {
@@ -144,9 +144,9 @@ ul li {
     padding: 0px;
     top: 80px;
     left: 0;
-    height: 200vh;
+    /* height: 200vh;
     width: 100vw;
-    max-width: 100%;
+    max-width: 100%; */
   }
 
   .titleAbout {
