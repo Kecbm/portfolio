@@ -80,7 +80,7 @@
   font-family: Bebas Neue;
   font-size: 31px;
 }
-
+/* titulo de 24px ou 36px e texto de 16px ou 18px */
 /* 320px — 480px: dispositivos móveis */
 @media (max-width: 480px) {
   .projects {
@@ -93,7 +93,7 @@
   }
 
   .h1Project {
-    font-size: 35px;
+    font-size: 24px;
     padding-top: 50px;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -117,7 +117,7 @@
   }
 
   .h1Project {
-    font-size: 45px;
+    font-size: 24px;
     padding-top: 50px;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -142,7 +142,7 @@
   }
 
   .h1Project {
-    font-size: 50px;
+    font-size: 36px;
     padding-top: 50px;
     padding-bottom: 0px;
     margin-bottom: 0px;
