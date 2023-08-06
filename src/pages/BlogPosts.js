@@ -15,12 +15,13 @@ class BlogPosts extends Component {
         <h1 className="h1Blog">BLOG POSTS</h1>
         <div className="blog-list">
           {
-            blogPosts.map((project) => (
-              <div key={ project.title } className="card-blog">
-                {/* <img src={ project.image } alt={ project.title } style={ imgStyle }/> */}
-                <h3 className="titleBlog">{ project.title }</h3>
-                <p className="pBlog">{ project.description }</p>
-                <button className="buttonBlog"><a href={ project.url } target="_blank" className="linkBlog">ACESSE</a></button>
+            blogPosts.map((post) => (
+              <div key={ post.title } className={post.location === "Br24" ? "card-blog blog-br24" : "card-blog blog-devto"}>
+                {/* <img src={ post.location === "Br24" ? "https://br24.io/wp-content/uploads/2022/09/Logo-Site-Br24-222x59-1.png" : "https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png" } alt={ post.location } className="tag-location" /> */}
+                <img src={ post.image } alt={ post.title } className="img-card-blog"/>
+                <h3 className="titleBlog">{ post.title }</h3>
+                <p className="pBlog">{ post.description }</p>
+                <button className="buttonBlog"><a href={ post.url } target="_blank" className="linkBlog" rel="noreferrer">LER AGORA</a></button>
               </div>
             ))
           }
