@@ -26,12 +26,37 @@
   margin-top: 18px;
   margin-right: 18px;
   padding: 10px;
-  justify-content: space-between;
-  background-color: #01411C;
   border-radius: 5px;
 }
 
-.card:hover {
+.side-project-card {
+  animation: pulsecolor 6s infinite;
+}
+
+@keyframes pulsecolor {
+  0% {
+    background:#228B22;
+  }
+  33% {
+    background: #00853E;
+  }
+  67% {
+    background:#00693E;
+  }
+  100% {
+    background:#043927;
+  }
+}
+
+.side-project-card:hover {
+  border: 3px solid #01411C;
+}
+
+.all-cards {
+  background-color: #01411C;
+}
+
+.all-cards:hover {
   background-color: #004526;
 }
 
