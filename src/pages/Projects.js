@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import newProjects from '../data/newProjects';
+import projects from '../data/Projects';
 import '../css/Projects.css';
 
 const imgStyle = {
@@ -15,7 +15,7 @@ class Projects extends Component {
         <h1 className="h1Project">PROJETOS</h1>
         <div className="project-list">
           {
-            newProjects.map((project) => (
+            projects.map((project) => (
               <div key={ project.title } className="card">
                 <img src={ project.image } alt={ project.title } style={ imgStyle }/>
                 <h3 className="titleProject">{ project.title }</h3>
