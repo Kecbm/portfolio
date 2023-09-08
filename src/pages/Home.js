@@ -11,15 +11,6 @@ class Home extends Component {
           <h1 className="titleHome">OLÁ! <img alt="Hand" src={hand} className="hand-home" />
           <br />
           EU SOU KLECIANNY MELO</h1>
-          {/* <div className="text-dinamic">
-            <p className="static">Desenvolvedora</p>
-            <ul className="dinamic">
-              <li><span>Front-end</span></li>
-              <li><span>Back-end</span></li>
-              <li><span>Web Full Stack{' '}</span></li>
-              <li><span>Android</span></li>
-            </ul>
-          </div> */}
           <img alt="Avatar" src={firstAvatar} id="avatar-home" />
         </section>
       </div>
