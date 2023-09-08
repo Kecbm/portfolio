@@ -7,7 +7,8 @@
   height: 60px;
   max-width: 100%;
   width: 100vw;
-  background-color: #1b1b1b;
+  /* background-color: #1b1b1b; */
+  background: linear-gradient(to bottom left, #397f9b, #138fc1, #F5F5F5);
   padding: 15px;
   position: fixed;
   margin-top: 0;
@@ -114,14 +115,14 @@
   color: #F5F5F5;
   font-size: 20px;
   padding: 11px;
-  background-color:  #141414;
+  background-color:  #30556e;
+  border-radius: 5px;
   text-align: center;
 }
 
 .linkHeader:hover {
   border: solid 1.5px transparent;
-  border-radius: 5px;
-  background-color: #292929;
+  background-color: #2a3f4f;
 }
 
 .icons-header {
