@@ -2,22 +2,17 @@
 
 footer {
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   top: 90%;
-  /* background-color: #1b1b1b; */
-  height: 5px;
-  width: 100vw;
+  height: 30px;
   max-width: 100%;
-  width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 80px;
   padding: 30px;
-  padding-top: 50px;
   text-align: center;
   bottom: 0;
-  /* position: fixed; */
+  /* background-image: linear-gradient(#743A36 33.33%, #491B1D 66.66%, #310A0B 100%); */
+  background-image: radial-gradient( circle 911px at 0.4% 50.5%,  #491B1D 18.7%, #310A0B 90% );
 }
 
 #text-footer {
