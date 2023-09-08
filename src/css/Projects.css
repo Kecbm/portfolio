@@ -5,7 +5,8 @@
   top: 90px;
   background-color: #141414;
   color: white;
-  min-height: fit-content;
+  min-height: 100vh;
+  max-height: fit-content;
   max-width: 100%;
   padding: 80px;
   text-align: center;
