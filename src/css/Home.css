@@ -5,34 +5,31 @@
   top: 90px;
   background-color: #141414;
   color: white;
-  /* height: 638px; */
-  height: 100vh;
-  /* width: 100%; */
+  min-height: 100vh;
+  max-height: fit-content;
   max-width: 100%;
   padding: 80px;
   text-align: center;
 }
 
 .titleHome {
-  padding-top: 25%;
-  padding-bottom: 30px;
   color: #F5F5F5;
   font-family: Bebas Neue;
   font-size: 120px;
 }
 
-#content-home {
-  margin-right: 50%;
-}
-
-#content-avatar {
-  margin-left: 50%;
-  margin-top: -20%;
-}
-
 .hand-home {
   width: 100px;
 }
+
+#content-home {
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* 
 .text-dinamic .static {
   margin-right: 500px;
