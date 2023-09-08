@@ -3,7 +3,7 @@
 .projects {
   position: relative;
   top: 90px;
-  background-color: #141414;
+  background-image: linear-gradient(225deg, #368b2e 0%, #2c6e27 50%, #244720 100%);
   color: white;
   min-height: 100vh;
   max-height: fit-content;
@@ -27,12 +27,12 @@
   margin-right: 18px;
   padding: 10px;
   justify-content: space-between;
-  background-color: #1b1b1b;
+  background-color: #01411C;
   border-radius: 5px;
 }
 
 .card:hover {
-  background-color: #292929;
+  background-color: #004526;
 }
 
 .h1Project {
@@ -54,27 +54,22 @@
   color: #141414;
 }
 
-.linkProject:hover {
-  color: black;
-}
-
 .buttonProject {
-  color: #f5f5f5;
+  color: #141414;
   font-family: Bebas Neue;
   font-size: 20px;
   text-align: center;
   width: 90px;
   border: solid transparent;
   border-radius: 5px;
-  background-color: #cccccc;
+  background-color: #0e592d;
   margin-top: 24px;
   margin-right: 5px;
   margin-bottom: 20px;
 }
 
 .buttonProject:hover {
-  background-color: #f5f5f5;
-  color: #1b1b1b;
+  background-color: #0b8a3c;
 }
 
 .titleProject {
