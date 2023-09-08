@@ -3,7 +3,7 @@
 .home {
   position: relative;
   top: 90px;
-  background-color: #141414;
+  background-image: linear-gradient(225deg, #368b2e 0%, #2c6e27 50%, #244720 100%);
   color: white;
   min-height: 100vh;
   max-height: fit-content;
@@ -29,68 +29,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
-/* 
-.text-dinamic .static {
-  margin-right: 500px;
-  margin-bottom: -85px;
-  color: #808080;
-}
-
-.text-dinamic {
-  padding-bottom: 40px;
-  text-align: center;
-  font-family: Bebas Neue;
-  font-size: 65px;
-  color: #F5F5F5;
-  font-weight: bold;
-  text-align: center;
-}
-
-.dinamic {
-  line-height: 90px;
-  height: 90px;
-  overflow: hidden;
-  margin-left: 250px;
-}
-
-.dinamic li {
-  color: #cc0000;
-  list-style: none;
-  left: 0;
-  position: relative;
-  top: 0px;
-  animation: slide 6s steps(4) infinite;
-  margin-left: 250px;
-}
-
-@keyframes slide {
-  100% {
-    top: -360px;
-  }
-}
-
-.dinamic li span {
-  position: relative;
-}
-
-.dinamic li span::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  border-left: 4px solid #cc0000;
-  animation: typing 1.5s steps(10) infinite;
-  background: #141414;
-}
-
-@keyframes typing {
-  100% {
-    left: 100%;
-    margin: 0 -35px 0 35px;
-  }
-} */
 
 #avatar-home {
   height: 550px;
