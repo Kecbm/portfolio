@@ -44,8 +44,8 @@ import Venda from '../assets/43.Venda.png';
 import Cerveja from '../assets/44.Cerveja.png';
 
 const projects = [
-  { image: 'https://img.icons8.com/stickers/100/fire-alt.png', title: 'Treta Dev', description: 'Explore as tretas da Bolha Dev, fique por dentro das novidades e filtre por temas', deploy: 'https://tretadev.vercel.app/', github: 'https://github.com/Kecbm/tretadev' },
-  { image: 'https://img.icons8.com/stickers/100/maneki.png', title: 'Cat API', description: 'Validações de dados recebidos da The Cat API com Zod no frontend', deploy: 'https://apicat.vercel.app/', github: 'https://github.com/Kecbm/the-cat-api' },
+  { isSideProject: true, image: 'https://img.icons8.com/stickers/100/fire-alt.png', title: 'Treta Dev', description: 'Explore as tretas da Bolha Dev, fique por dentro das novidades e filtre por temas', deploy: 'https://tretadev.vercel.app/', github: 'https://github.com/Kecbm/tretadev' },
+  { isSideProject: true, image: 'https://img.icons8.com/stickers/100/maneki.png', title: 'Cat API', description: 'Validações de dados recebidos da The Cat API com Zod no frontend', deploy: 'https://apicat.vercel.app/', github: 'https://github.com/Kecbm/the-cat-api' },
   { image: Questao, title: 'Wordle', description: 'Jogo de adivinhação de uma palavra aleatória, semelhante ao Termoo', deploy: 'https://wordle-kecbm.vercel.app/', github: 'https://github.com/Kecbm/wordle' },
   { image: outroJogo, title: 'Trivia', description: 'Um jogo de perguntas e respostas baseado no jogo show do milhão', deploy: 'https://trivia-kecbm.vercel.app/', github: 'https://github.com/Kecbm/trivia' },
   { image: Carteira, title: 'Wallet', description: 'Uma carteira onde você pode controlar seus gastos e converter moedas', deploy: 'https://trybewallet-kecbm.vercel.app/', github: 'https://github.com/Kecbm/trybewallet' },
