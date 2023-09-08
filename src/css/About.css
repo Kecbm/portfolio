@@ -3,7 +3,7 @@
 .about {
   position: relative;
   top: 90px;
-  background-color: #141414;
+  background-image: linear-gradient(225deg, #368b2e 0%, #2c6e27 50%, #244720 100%);
   min-height: 100vh;
   max-height: fit-content;
   max-width: 100%;
