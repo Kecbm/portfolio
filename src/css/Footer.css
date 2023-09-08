@@ -11,7 +11,6 @@ footer {
   padding: 30px;
   text-align: center;
   bottom: 0;
-  /* background-image: linear-gradient(#743A36 33.33%, #491B1D 66.66%, #310A0B 100%); */
   background-image: radial-gradient( circle 911px at 0.4% 50.5%,  #491B1D 18.7%, #310A0B 90% );
 }
 
