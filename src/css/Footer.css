@@ -28,7 +28,24 @@ footer {
   animation: Color 4s linear infinite;
   -webkit-animation: Color 4s ease-in-out infinite;
 }
+ 
+@keyframes beat {
+  0% {
+    transform: scale(2.4);
+  }
+  50% {
+    transform: scale(2.8);
+  }
+  100% {
+    transform: scale(2.4);
+  }
+}
 
+.icon.beat-animation {
+  margin-left: 20px;
+  margin-right: 20px;
+  animation: beat 1s infinite;
+}
 
 @keyframes Color{
   0%{
