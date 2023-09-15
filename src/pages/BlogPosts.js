@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import blogPosts from '../data/BlogPosts';
 import '../css/BlogPosts.css';
 
-// const imgStyle = {
-//   height: '150px',
-//   width: '150px',
-//   marginTop: '0px',
-// };
-
 class BlogPosts extends Component {
   render() {
     return (

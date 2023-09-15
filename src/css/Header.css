@@ -7,7 +7,7 @@
   height: 60px;
   max-width: 100%;
   width: 100vw;
-  background-color: #1b1b1b;
+  background-color: #0c0d11;
   padding: 15px;
   position: fixed;
   margin-top: 0;
@@ -19,7 +19,7 @@
 }
 
 .titleHeader {
-  color: #F5F5F5;
+  color: #c4c2bf;
   font-family: Bebas Neue;
   font-size: 50px;
 }
@@ -111,17 +111,17 @@
   text-decoration: none;
   margin-right: 10px;
   font-family: Open Sans;
-  color: #F5F5F5;
+  color: #7a7772;
   font-size: 20px;
   padding: 11px;
-  background-color:  #141414;
+  background-color:  	#161b23;
+  border-radius: 5px;
   text-align: center;
 }
 
 .linkHeader:hover {
-  border: solid 1.5px transparent;
-  border-radius: 5px;
-  background-color: #292929;
+  border: none;
+  color: #9d9a94;
 }
 
 .icons-header {
@@ -138,7 +138,7 @@ nav .linkHeader::after {
   content: " ";
   width: 0%;
   height: 4px;
-  background-color: #F5F5F5;
+  background-color: #f74a18;
   position: absolute;
   bottom: 0;
   left: 0;

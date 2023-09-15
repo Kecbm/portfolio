@@ -3,8 +3,7 @@
 #contact {
     position: relative;
     top: 90px;
-    background-color: #141414;
-    color: white;
+    background-color: #0e141b;
     min-height: 100vh;
     max-height: fit-content;
     max-width: 100%;
@@ -22,7 +21,7 @@
 #title-contact {
     padding-top: 70px;
     padding-bottom: 30px;
-    color: #F5F5F5;
+    color: #c4c2bf;
     font-family: Bebas Neue;
     font-size: 65px;
 }

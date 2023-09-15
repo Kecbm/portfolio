@@ -16,7 +16,7 @@ class Projects extends Component {
         <div className="project-list">
           {
             projects.map((project) => (
-              <div key={ project.title } className="card">
+              <div key={ project.title } className={project.isSideProject ? "card side-project-card" : "card all-cards"}>
                 <img src={ project.image } alt={ project.title } style={ imgStyle }/>
                 <h3 className="titleProject">{ project.title }</h3>
                 <p className="pProject">{ project.description }</p>
