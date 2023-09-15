@@ -10,7 +10,7 @@ class Home extends Component {
         <section id="content-home">
           <h1 className="titleHome">OLÁ! <img alt="Hand" src={hand} className="hand-home" />
           <br />
-          EU SOU KLECIANNY MELO</h1>
+          EU SOU <span id="name-home">KLECIANNY MELO</span></h1>
           <img alt="Avatar" src={firstAvatar} id="avatar-home" />
         </section>
       </div>

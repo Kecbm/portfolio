@@ -22,6 +22,10 @@
   width: 100px;
 }
 
+#name-home {
+  color: #e8310e;
+}
+
 #content-home {
   padding: 80px;
   display: flex;
