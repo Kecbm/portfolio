@@ -3,7 +3,7 @@
 .projects {
   position: relative;
   top: 90px;
-  background-image: linear-gradient(225deg, #368b2e 0%, #2c6e27 50%, #244720 100%);
+  background-color: #0e141b;
   color: white;
   min-height: 100vh;
   max-height: fit-content;
@@ -35,29 +35,26 @@
 
 @keyframes pulsecolor {
   0% {
-    background:#228B22;
+    background:#f49759;
   }
-  33% {
-    background: #00853E;
-  }
-  67% {
-    background:#00693E;
+  50% {
+    background: #e77757;
   }
   100% {
-    background:#043927;
+    background:#fa7d50;
   }
 }
 
 .side-project-card:hover {
-  border: 3px solid #01411C;
+  border: 3px solid #e8310e;
 }
 
 .all-cards {
-  background-color: #01411C;
+  background-color: #161b23;
 }
 
 .all-cards:hover {
-  background-color: #004526;
+  border: 2px solid #fa7d50;
 }
 
 .h1Project {

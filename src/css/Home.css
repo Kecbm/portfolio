@@ -3,8 +3,8 @@
 .home {
   position: relative;
   top: 90px;
-  background-image: linear-gradient(225deg, #368b2e 0%, #2c6e27 50%, #244720 100%);
-  color: white;
+  background-color: #0e141b;
+  color: #c4c2bf;
   min-height: 100vh;
   max-height: fit-content;
   max-width: 100%;
