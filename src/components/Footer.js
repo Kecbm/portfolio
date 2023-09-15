@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../css/Footer.css';
 
 const Footer = () => {
-  const icons = ['🤠', '🌵', '🐎', '🪗', '🪨', '🫀', '🏜️', '☀️'];
+  const icons = ['🤠', '🌵', '🐎', '🪗', '🪨', '🫀', '☀️'];
   const [currentIconIndex, setCurrentIconIndex] = useState(0);
 
   useEffect(() => {
