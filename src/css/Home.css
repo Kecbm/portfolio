@@ -23,7 +23,31 @@
 }
 
 #name-home {
-  color: #e8310e;
+  animation: pulsecolorName 6s infinite;
+}
+
+@keyframes pulsecolorName {
+  0% {
+    color:#e77757;
+  }
+  17% {
+    color: #d25430;
+  }
+  34% {
+    color:#ef6b20;
+  }
+  51% {
+    color: #e05116;
+  }
+  68% {
+    color:#f74a18;
+  }
+  85% {
+    color:#e8310e;
+  }
+  100% {
+    color:#c1210d;
+  }
 }
 
 #content-home {
