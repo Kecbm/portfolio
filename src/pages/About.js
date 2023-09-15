@@ -8,7 +8,7 @@ class About extends Component {
       <div className="about">
         <section>
           <div>
-            <h1 className="titleAbout"><a name="sobre">SOBRE</a></h1>
+            <h1 className="titleAbout">SOBRE</h1>
             <p className="text-about"> 
             Olá, Eu sou Klecianny Melo, tenho 27 anos e moro em Garanhuns, Pernambuco. Sou paixonada por tecnologia e acredito no poder da educação para transformar vidas. Além disso, pratico ciclismo e crossfit para me manter saudável, gosto de ler livros de diversas categorias e jogar videogame. Participo ativamente da Bolha Dev no Twitter, uma comunidade de desenvolvedores que compartilha conhecimentos e experiências sobre o universo tecnológico.
             </p>
