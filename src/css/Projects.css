@@ -35,18 +35,38 @@
 
 @keyframes pulsecolor {
   0% {
-    background:#f49759;
+    background:#e77757;
   }
-  50% {
-    background: #e77757;
+  17% {
+    background: #d25430;
+  }
+  34% {
+    background:#ef6b20;
+  }
+  51% {
+    background: #e05116;
+  }
+  68% {
+    background:#f74a18;
+  }
+  85% {
+    background:#e8310e;
   }
   100% {
-    background:#fa7d50;
+    background:#c1210d;
   }
 }
 
 .side-project-card:hover {
-  border: 3px solid #e8310e;
+  border: 3px solid #ff0000;
+}
+
+.side-project-card button {
+  background-color: #d25430;
+}
+
+.side-project-card button:hover {
+  background-color: #883624;
 }
 
 .all-cards {
@@ -58,7 +78,7 @@
 }
 
 .h1Project {
-  color: #f5f5f5;
+  color: #c4c2bf;
   font-family: Bebas Neue;
   font-size: 60px;
   margin-bottom: 55px;
@@ -67,31 +87,31 @@
 .pProject {
   text-align: center;
   font-family: Open Sans;
-  color: #f5f5f5;
+  color: #c4c2bf;
   font-size: 14px;
 }
 
 .linkProject {
   text-decoration: none;
-  color: #141414;
+  color: #0c0d11;
 }
 
 .buttonProject {
-  color: #141414;
+  color: #0c0d11;
   font-family: Bebas Neue;
   font-size: 20px;
   text-align: center;
   width: 90px;
   border: solid transparent;
   border-radius: 5px;
-  background-color: #0e592d;
+  background-color: #2d3138;
   margin-top: 24px;
   margin-right: 5px;
   margin-bottom: 20px;
 }
 
 .buttonProject:hover {
-  background-color: #0b8a3c;
+  background-color: #47505d;
 }
 
 .titleProject {
