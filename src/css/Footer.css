@@ -4,6 +4,7 @@ footer {
   position: relative;
   top: 90%;
   height: 30px;
+  max-height: fit-content;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
