@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
 
+::selection {
+  background-color: #f74a18;
+}
+
 .home {
   position: relative;
   top: 90px;
