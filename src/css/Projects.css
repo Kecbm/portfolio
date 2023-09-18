@@ -66,6 +66,7 @@
 
 .side-project-card button:hover {
   background-color: #e08557;
+  border: 2px solid #6d2b21;
 }
 
 .all-cards {
