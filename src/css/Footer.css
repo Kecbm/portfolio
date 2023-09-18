@@ -2,7 +2,7 @@
 
 footer {
   position: relative;
-  min-height: 100px;
+  min-height: 80px;
   max-height: fit-content;
   max-width: 100%;
   text-align: center;
@@ -11,6 +11,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 90px;
 }
 
 #text-footer {
