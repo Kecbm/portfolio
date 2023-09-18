@@ -2,17 +2,15 @@
 
 footer {
   position: relative;
-  top: 90%;
-  height: 30px;
+  min-height: 100px;
   max-height: fit-content;
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  padding: 30px;
   text-align: center;
   bottom: 0;
   background-color: #0c0d11;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #text-footer {
