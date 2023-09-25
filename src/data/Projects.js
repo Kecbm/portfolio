@@ -44,6 +44,7 @@ import Venda from '../assets/43.Venda.png';
 import Cerveja from '../assets/44.Cerveja.png';
 
 const projects = [
+  { isSideProject: true, image: 'https://img.icons8.com/stickers/100/chicken.png', title: 'Rinha de backend', description: 'Lista de participantes, Top 10, vencedor, ranking das linguagens e informações sobre os forks', deploy: 'https://rinhadebackend.vercel.app/', github: 'https://github.com/Kecbm/rinhadebackend' },
   { isSideProject: true, image: 'https://img.icons8.com/stickers/100/fire-alt.png', title: 'Treta Dev', description: 'Explore as tretas da Bolha Dev, fique por dentro das novidades e filtre por temas', deploy: 'https://tretadev.vercel.app/', github: 'https://github.com/Kecbm/tretadev' },
   { image: 'https://img.icons8.com/stickers/100/maneki.png', title: 'Cat API', description: 'Validações de dados recebidos da The Cat API com Zod no frontend', deploy: 'https://apicat.vercel.app/', github: 'https://github.com/Kecbm/the-cat-api' },
   { image: Questao, title: 'Wordle', description: 'Jogo de adivinhação de uma palavra aleatória, semelhante ao Termoo', deploy: 'https://wordle-kecbm.vercel.app/', github: 'https://github.com/Kecbm/wordle' },
