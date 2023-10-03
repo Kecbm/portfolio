@@ -100,6 +100,9 @@ Tela Projects:
 - [CodePal](https://codepal.ai/)
 - [ ] Card maior dos novos projetos com background gif de galáxia P e B; no hover a galáxia fica colorida;
 
+- [Nicoletti](https://luiginicoletti.vercel.app/)
+- [ ] Área de formações com foto dos certificados dos cursos;
+
 <br>
 
 <p align="right"><a href="#top">Voltar ao topo ☝</a></p>
