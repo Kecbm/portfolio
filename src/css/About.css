@@ -64,6 +64,58 @@ ul li {
   text-align: center;
 }
 
+#avatar-about {
+  height: 550px;
+  width: 550px;
+  margin-bottom: 100px;
+}
+
+#section-formations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title-formations {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: #c4c2bf;
+  font-family: Bebas Neue;
+  font-size: 65px;
+  width: 100%;
+}
+
+.card-formation {
+  width: 456px;
+  height: 352px;
+  background-color: #161b23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.card-formation:hover {
+  outline: 4px solid #f74a18;
+}
+
+.img-formation {
+  width: 408px;
+  height: 304px;
+  margin-top: 18px;
+}
+
+.about-formation {
+  text-align: center;
+  color: #c4c2bf;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
 /* 320px — 480px: dispositivos móveis */
 @media (max-width: 480px) {
   .about {

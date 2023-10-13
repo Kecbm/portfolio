@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import secondAvatar from '../assets/Avatar2.png';
+import formations from '../data/Formations';
 import '../css/About.css';
 
 class About extends Component {
@@ -71,8 +72,18 @@ class About extends Component {
             <li>👩🏽‍🔬 <span className="text-bold">Engenharia de Alimentos</span> - Universidade Federal do Agreste de Pernambuco (01/2014 - 05/2021)</li>
           </ul>
           </div>
-          <img alt="Avatar" src={secondAvatar}  id="avatar-home" />
+          <img alt="Avatar" src={secondAvatar}  id="avatar-about" />
         </section>
+        <div id='section-formations'>
+        {
+            formations.map((formation, index) => (
+                <div key={index} className='card-formation'>
+                    <img src={formation.url} alt={formation.title} className='img-formation'/>
+                    <p className='about-formation'>{formation.informations}</p>
+                </div>
+            ))
+        }
+        </div>
       </div>
     );
   }
