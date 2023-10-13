@@ -34,7 +34,7 @@
 }
 
 .card-blog:hover {
-  border: 2px solid #f74a18;
+  outline: 8px solid #f74a18;
 }
 
 /* .tag-location {
