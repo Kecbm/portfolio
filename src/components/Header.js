@@ -26,6 +26,8 @@ class Header extends Component {
           {' '}
           <Link to="/projects" className="link-rout"><a href="#projetos" className="linkHeader"><img alt="Projeto" src="https://img.icons8.com/ios/50/7a7772/programming.png" className="icons-header" />{' '}PROJETOS</a></Link>
           {' '}
+          <Link to="/formations" className="link-rout"><a href="#formacoes" className="linkHeader"><img alt="Formações" src="https://img.icons8.com/ios/50/7a7772/graduation-cap.png" className="icons-header" />{' '}FORMAÇÕES</a></Link>
+          {' '}
           <Link to="/blogposts" className="link-rout"><a href="#blogposts" className="linkHeader"><img alt="Blog Post" src="https://img.icons8.com/ios/50/7a7772/agreement.png" className="icons-header" />{' '}BLOG POSTS</a></Link>
           {' '}
           <Link to="/contact" className="link-rout"><a href="#contato" className="linkHeader"><img alt="Contato" src="https://img.icons8.com/ios/50/7a7772/contact-card.png" className="icons-header" />{' '}CONTATO</a></Link>

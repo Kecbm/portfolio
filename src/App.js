@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import BlogPosts from './pages/BlogPosts';
+import Formations from './pages/Formations';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/" element={ <Home /> } />
           <Route exact path="/about" element={ <About /> } />
           <Route exact path="/projects" element={ <Projects /> } />
+          <Route exact path="/formations" element={ <Formations /> } />
           <Route exact path="/blogposts" element={ <BlogPosts /> } />
           <Route exact path="/contact" element={ <Contact /> } />
           <Route path="*" element={ NotFound } />
