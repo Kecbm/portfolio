@@ -71,14 +71,11 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 
 Breakpoints comuns em termos de larguras dos dispositivos:
 - [ ] 2400px — 1080px: Meu Redmi Note 11
-
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
 - [ ] Header transparente após scroll;
 - [ ] Desenvolver um Easter Egg na página NotFound;
-- [ ] Boquear o scroll horizontal na página;
 - [ ] Implementar o Loading (analisar se dá pra incluir meu Avatar);
-- [ ] Paginação em Projects (10 cards por página) - EM ANDAMENTO;
-- [ ] Implementar a página de cards de Blog Posts (adicionar em ordem cronologica);
+- [ ] Paginação em Projects (10 cards por página);
 
 - [Gitmoji](https://gitmoji.dev/)
 Tela Projects:
@@ -93,12 +90,6 @@ Tela Projects:
 
 - [Vinicius](https://portfolio-jade-omega-61.vercel.app/)
 - [ ] Implementar página de artigos que eu escrevi e outros materiais que criei/fiz parte;
-
-- [Caferati](https://caferati.me/portfolio)
-- [ ] Botões que filtram os projetos por stack (Todos, Frontend, Backend, NodeJS, React, HTML, JavaScript e etc);
-
-- [CodePal](https://codepal.ai/)
-- [ ] Card maior dos novos projetos com background gif de galáxia P e B; no hover a galáxia fica colorida;
 
 <br>
 
