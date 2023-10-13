@@ -11,6 +11,37 @@
   text-align: center;
 }
 
+#btn-filter {
+  display: inline-block;
+}
+
+.btn {
+  color: #fdc8ab;
+  background-color: #e77757;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 5px 5px 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn-tag:hover {
+  background-color: #e8310e;
+  font-weight: 700;
+}
+
+.btn-tag-active {
+  background-color: #c8220d;
+  color: white;
+  font-weight: 700;
+  outline: 4px solid #920a0a;
+}
+
 .project-list {
   display: flex;
   flex-direction: row;
