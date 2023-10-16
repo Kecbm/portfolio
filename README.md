@@ -70,7 +70,6 @@ Visando oferecer um Software de melhoria continua, considerando o ciclo do desen
 <br>
 
 Breakpoints comuns em termos de larguras dos dispositivos:
-- [ ] 2400px — 1080px: Meu Redmi Note 11
 - [ ] Tema claro com botão para alternar entre ligth e dark mode;
 - [ ] Header transparente após scroll;
 - [ ] Desenvolver um Easter Egg na página NotFound;
