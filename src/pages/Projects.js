@@ -38,6 +38,12 @@ function Projects() {
           Todos
         </button>
         <button
+          onClick={() => handleTagClick(['design'])}
+          className={selectedTag === 'design' ? 'btn btn-tag-active' : 'btn  btn-tag'}
+        >
+          Design
+        </button>
+        <button
           onClick={() => handleTagClick(['frontend'])}
           className={selectedTag === 'frontend' ? 'btn btn-tag-active' : 'btn  btn-tag'}
         >
@@ -66,7 +72,13 @@ function Projects() {
               {
                 project.deploy ? <button className="buttonProject"><a href={ project.deploy } target="_blank" className="linkProject" rel="noreferrer">APLICAÇÃO</a></button> : null
               }
-              <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer">REPOSITÓRIO</a></button>
+              {
+                project.type && project.type.includes('design') ? (
+                  <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer">PROJETO</a></button>
+                ) : (
+                  <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer">REPOSITÓRIO</a></button>
+                )
+              }
             </div>
           ))
         }
