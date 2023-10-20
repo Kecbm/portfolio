@@ -90,6 +90,10 @@ Tela Projects:
 - [Vinicius](https://portfolio-jade-omega-61.vercel.app/)
 - [ ] Implementar página de artigos que eu escrevi e outros materiais que criei/fiz parte;
 
+- [Lucas](https://lucasm.dev/)
+- [ ] Desenvolver página de recomendações de livros;
+- [ ] Observar outros pontos que posso aplicar;
+
 <br>
 
 <p align="right"><a href="#top">Voltar ao topo ☝</a></p>
