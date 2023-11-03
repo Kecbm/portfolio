@@ -94,6 +94,9 @@ Tela Projects:
 - [ ] Desenvolver página de recomendações de livros;
 - [ ] Observar outros pontos que posso aplicar;
 
+- [Eduardo](https://eduardosilveira.com/)
+- [ ] Linha do tempo de atuação profissional + formação acadêmica;
+
 <br>
 
 <p align="right"><a href="#top">Voltar ao topo ☝</a></p>
