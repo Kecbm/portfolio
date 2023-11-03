@@ -1,45 +1,52 @@
 const blogPosts = [
   {
-    image: 'https://img.icons8.com/stickers/100/untested.png',
-    title: 'Cronograma de projeto',
-    description: 'O artigo aborda a importância de um cronograma de projeto, fornecendo orientações práticas para sua elaboração',
+    image: 'https://img.icons8.com/stickers/100/book-shelf.png',
+    title: 'Playbook: o que é, como aplicar, funcionalidades e vantagens',
+    url: 'https://br24.io/blog/playbook/',
+    location: 'Br24',
+    date: 'Outubro de 2023'
+  },
+  {
+    image: 'https://img.icons8.com/stickers/100/group-of-projects.png',
+    title: 'Cronograma de Projeto: o que é, como funciona, como montar e vantagens',
     url: 'https://br24.io/blog/cronograma-de-projeto/',
-    location: 'Br24'
-  },
-  {
-    image: 'https://img.icons8.com/stickers/100/bot.png',
-    title: 'ChatGPT',
-    description: 'Entenda o que é, como funciona, limitações, ferramentas e o que esperar da nova atualização no GPT-5',
-    url: 'https://br24.io/blog/chatgpt-entenda-como-funciona/',
-    location: 'Br24'
-  },
-  {
-    image: 'https://img.icons8.com/stickers/100/literature.png',
-    title: 'Como otimizar sua semana de leitura',
-    description: 'Aprenda a organizar uma rotina eficaz de leitura e descobra onde encontrar livros gratuitos na internet',
-    url: 'https://dev.to/kecbm/como-otimizar-sua-semana-de-leitura-dicas-praticas-e-eficazes-480b',
-    location: 'Dev.to'
-  },
-  {
-    image: 'https://img.icons8.com/stickers/100/online-shop.png',
-    title: 'CRM de Vendas',
-    description: 'Saiba o que é um CRM de vendas, suas principais funcionalidades e conheça o Bitrix24, o melhor CRM do mercado',
-    url: 'https://br24.io/blog/controlar-meu-processo-de-vendas-com-bitrix24-crm/',
-    location: 'Br24'
+    location: 'Br24',
+    date: 'Setembro de 2023'
   },
   {
     image: 'https://img.icons8.com/stickers/100/graph.png',
-    title: 'KPIs',
-    description: 'Entenda a importância dos KPIs, como defini-los e utiliza-los efetivamente para impulsionar o sucesso dos negócios',
+    title: 'KPIs: o que são, para que servem, vantagens e dicas de como aplicar',
     url: 'https://br24.io/blog/kpis/',
-    location: 'Br24'
+    location: 'Br24',
+    date: 'Agosto de 2023'
   },
   {
-    image: 'https://img.icons8.com/stickers/100/happy-mac.png',
+    image: 'https://img.icons8.com/stickers/100/chatbot.png',
+    title: 'O que é ChatGPT: benefícios, como funciona e atualizações GPT-5',
+    url: 'https://br24.io/blog/chatgpt-entenda-como-funciona/',
+    location: 'Br24',
+    date: 'Julho de 2023'
+  },
+  {
+    image: 'https://img.icons8.com/stickers/100/books-1.png',
+    title: 'Como otimizar sua semana de leitura: dicas práticas e eficazes',
+    url: 'https://dev.to/kecbm/como-otimizar-sua-semana-de-leitura-dicas-praticas-e-eficazes-480b',
+    location: 'Dev.to',
+    date: 'Junho de 2023'
+  },
+  {
+    image: 'https://img.icons8.com/stickers/100/best-sales.png',
+    title: 'CRM de Vendas: benefícios, como utilizar e diferenciais do CRM Bitrix24',
+    url: 'https://br24.io/blog/controlar-meu-processo-de-vendas-com-bitrix24-crm/',
+    location: 'Br24',
+    date: 'Junho de 2023'
+  },
+  {
+    image: 'https://img.icons8.com/stickers/100/my-computer.png',
     title: 'Como ser uma pessoa desenvolvedora fora da curva',
-    description: 'Dicas e conselhos para se destacar como desenvolvedor, com um dos ícones da bolha dev, Sibelius Seraphini',
     url: 'https://dev.to/kecbm/como-ser-um-dev-fora-da-curva-por-sseraphini-4og2',
-    location: 'Dev.to'
+    location: 'Dev.to',
+    date: 'Abril de 2022'
   }
 ];
 
