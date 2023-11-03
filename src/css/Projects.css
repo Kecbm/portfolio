@@ -121,23 +121,18 @@
   font-size: 14px;
 }
 
-.linkProject {
-  text-decoration: none;
-  color: #0c0d11;
-}
-
 .buttonProject {
   color: #0c0d11;
   font-family: Bebas Neue;
   font-size: 20px;
   text-align: center;
-  width: 90px;
+  width: 44px;
+  height: 36px;
   border: solid transparent;
   border-radius: 5px;
   background-color: #2d3138;
-  margin-top: 24px;
+  margin-top: 14px;
   margin-right: 5px;
-  margin-bottom: 20px;
 }
 
 .buttonProject:hover {
