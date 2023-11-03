@@ -84,13 +84,14 @@
   font-family: Bebas Neue;
   font-size: 30px;
   text-align: center;
-  width: 120px;
+  width: 60px;
   border: solid transparent;
   border-radius: 5px;
   background-color: #2d3138;
   margin-top: 24px;
   margin-right: 5px;
   margin-bottom: 20px;
+  padding-top: 8px;
 }
 
 .buttonBlog:hover {

@@ -15,7 +15,7 @@ class BlogPosts extends Component {
                 <img src={ post.image } alt={ post.title } className="img-card-blog"/>
                 <h3 className="titleBlog">{ post.title }</h3>
                 <p className="pBlog">{ post.description }</p>
-                <button className="buttonBlog"><a href={ post.url } target="_blank" className="linkBlog" rel="noreferrer">LER AGORA</a></button>
+                <button className="buttonBlog"><a href={ post.url } target="_blank" className="linkBlog" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/overview-pages-1.png" alt="overview-pages-1"/></a></button>
               </div>
             ))
           }
