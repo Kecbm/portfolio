@@ -80,7 +80,12 @@ class About extends Component {
             formations.map((formation, index) => (
                 <div key={index} className='card-formation'>
                     <img src={formation.url} alt={formation.title} className='img-formation'/>
-                    <p className='about-formation'>{formation.informations}</p>
+                    <div id='card-formation-footer'>
+                      <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/c4c2bf/calendar.png" alt="calendar"/>
+                      <p className='about-formation'>
+                        {formation.informations}
+                      </p>
+                    </div>
                 </div>
             ))
         }

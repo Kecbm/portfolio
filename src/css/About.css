@@ -108,12 +108,18 @@ ul li {
   margin-top: 18px;
 }
 
+#card-formation-footer {
+  display: flex;
+  justify-content: center;
+}
+
 .about-formation {
   text-align: center;
   color: #c4c2bf;
   font-family: Bebas Neue;
   font-size: 20px;
   margin-top: 4px;
+  margin-left: 10px;
 }
 
 /* 320px — 480px: dispositivos móveis */
