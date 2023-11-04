@@ -36,6 +36,7 @@
 
 .card-blog:hover {
   outline: 6px solid #f74a18;
+  /* color: #f2f2f2; */
 }
 
 /* .tag-location {
@@ -71,9 +72,9 @@
   text-align: center;
   font-family: Open Sans;
   color: #000000;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .linkBlog {
@@ -91,6 +92,7 @@
   /* margin-top: 24px;
   margin-right: 5px;
   margin-bottom: 20px; */
+  margin: 10px;
   padding-top: 8px;
 }
 
