@@ -109,14 +109,20 @@
 
 .linkHeader {
   text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.img-container {
   margin-right: 10px;
-  font-family: Open Sans;
   color: #7a7772;
-  font-size: 20px;
-  padding: 11px;
+  padding: 10px;
   background-color:  	#161b23;
   border-radius: 5px;
-  text-align: center;
 }
 
 .linkHeader:hover {
@@ -125,8 +131,8 @@
 }
 
 .icons-header {
-  width: 30px;
-  margin-bottom: -7px;
+  width: 40px;
+  /* margin-bottom: -7px; */
 }
 
 nav .linkHeader {
@@ -147,7 +153,7 @@ nav .linkHeader::after {
 }
 
 nav .linkHeader:hover::after {
-  width: 100%;
+  width: 85%;
 }
 
 .link-rout {

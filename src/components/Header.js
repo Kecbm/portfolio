@@ -20,15 +20,45 @@ class Header extends Component {
         />
         <h1 className="titleHeader">KLECIANNY MELO</h1>
         <nav>
-          <Link to="/" className="link-rout"><a href="#inicio" className="linkHeader"><img alt="Home" src="https://img.icons8.com/ios/50/7a7772/home--v1.png" className="icons-header" />{' '}INÍCIO</a></Link>
+          <Link to="/" className="link-rout">
+            <a href="#inicio" className="linkHeader">
+              <div className="img-container">
+                <img title="Home" alt="Home" src="https://img.icons8.com/ios/50/7a7772/home--v1.png" className="icons-header" />
+              </div>
+            </a>
+          </Link>
           {' '}
-          <Link to="/about" className="link-rout"><a href="#sobre" className="linkHeader"><img alt="Usuário" src="https://img.icons8.com/ios/50/7a7772/gender-neutral-user--v1.png" className="icons-header" />{' '}SOBRE</a></Link>
+          <Link to="/about" className="link-rout">
+            <a href="#sobre" className="linkHeader">
+              <div className="img-container">
+                <img title="Sobre" alt="Sobre" src="https://img.icons8.com/ios/50/7a7772/gender-neutral-user--v1.png" className="icons-header" />
+              </div>
+            </a>
+          </Link>
           {' '}
-          <Link to="/projects" className="link-rout"><a href="#projetos" className="linkHeader"><img alt="Projeto" src="https://img.icons8.com/ios/50/7a7772/programming.png" className="icons-header" />{' '}PROJETOS</a></Link>
+          <Link to="/projects" className="link-rout">
+            <a href="#projetos" className="linkHeader">
+              <div className="img-container">
+                <img title="Projetos" alt="Projetos" src="https://img.icons8.com/ios/50/7a7772/programming.png" className="icons-header" />
+              </div>
+            </a>
+          </Link>
           {' '}
-          <Link to="/blogposts" className="link-rout"><a href="#blogposts" className="linkHeader"><img alt="Blog Post" src="https://img.icons8.com/ios/50/7a7772/agreement.png" className="icons-header" />{' '}BLOG POSTS</a></Link>
+          <Link to="/blogposts" className="link-rout">
+            <a href="#blogposts" className="linkHeader">
+              <div className="img-container">
+                <img title="Blog Posts" alt="Blog Posts" src="https://img.icons8.com/ios/50/7a7772/agreement.png" className="icons-header" />
+              </div>
+            </a>
+          </Link>
           {' '}
-          <Link to="/contact" className="link-rout"><a href="#contato" className="linkHeader"><img alt="Contato" src="https://img.icons8.com/ios/50/7a7772/contact-card.png" className="icons-header" />{' '}CONTATO</a></Link>
+          <Link to="/contact" className="link-rout">
+            <a href="#contato" className="linkHeader">
+              <div className="img-container">
+                <img title="Contato" alt="Contato" src="https://img.icons8.com/ios/50/7a7772/contact-card.png" className="icons-header" />
+              </div>
+            </a>
+          </Link>
           {' '}
         </nav>
         <div>{' '}</div>
