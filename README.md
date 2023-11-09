@@ -75,6 +75,7 @@ Breakpoints comuns em termos de larguras dos dispositivos:
 - [ ] Desenvolver um Easter Egg na página NotFound;
 - [ ] Implementar o Loading (analisar se dá pra incluir meu Avatar);
 - [ ] Paginação em Projects (10 cards por página);
+- [ ] Header apenas com ícones e uma indicação extra para expandir o menu e aparecer o nome das páginas após os links;
 
 - [Gitmoji](https://gitmoji.dev/)
 Tela Projects:
