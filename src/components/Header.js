@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import '../css/Header.css';
 import { Link } from 'react-router-dom';
+import Translation from './Translation';
+import '../css/Header.css';
 
 const imgStyle = {
   borderRadius: '60%'
@@ -61,6 +62,7 @@ class Header extends Component {
           </Link>
           {' '}
         </nav>
+        <Translation />
         <div>{' '}</div>
       </div>
     );

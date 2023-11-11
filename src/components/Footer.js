@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import Translations from '../locales/Translations';
+import { useLanguage } from '../context/LanguageContext';
 import '../css/Footer.css';
 
 const Footer = () => {
   const icons = ['🤠', '🌵', '🐎', '🪗', '🪨', '🫀', '☀️'];
   const [currentIconIndex, setCurrentIconIndex] = useState(0);
+  const { language } = useLanguage();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -17,7 +20,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <h4 id="text-footer">Desenvolvido com 
+      <h4 id="text-footer">{Translations[language].textFooter} 
         {' '}
         {icons.map((icon, index) => (
             <span
@@ -29,7 +32,7 @@ const Footer = () => {
             </span>
         ))}
         {' '}
-      por
+        {Translations[language].textFooter_1} 
         {' '}
         <span id="name-footer">Klecianny Melo</span>
       </h4>
