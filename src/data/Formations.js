@@ -7,74 +7,68 @@ import fundB24 from '../assets/6.B24.jpeg';
 
 const formations = [
     {
+        url: fundB24,
         en: {
             title: 'Bitrix24 Fundamentals',
-            url: fundB24,
             informations: 'May 2023'
         },
         pt: {
             title: 'Fundamentos do Bitrix24',
-            url: fundB24,
             informations: 'Maio de 2023'
         }
     },
     {
+        url: onbB24,
         en: {
             title: 'Implementing Bitrix.CRM - Onboarding',
-            url: onbB24,
             informations: 'May 2023'
         },
         pt: {
             title: 'Implementando o Bitrix.CRM - Onboarding',
-            url: onbB24,
             informations: 'Maio de 2023'
         }
     },
     {
+        url: comunication,
         en: {
             title: 'Assertive Communication - By Conquer',
-            url: comunication,
             informations: 'January 2023'
         },
         pt: {
             title: 'Comunicação Assertiva - By Conquer',
-            url: comunication,
             informations: 'Janeiro de 2023'
         }
     },
     {
+        url: devSf,
         en: {
             title: 'Salesforce Development Training for Beginners',
-            url: devSf,
             informations: 'January 2023 - 2 hours'
         },
         pt: {
             title: 'Salesforce Development Training for Beginners',
-            url: devSf,
             informations: 'Janeiro de 2023 - 14 horas'
         }
     },
     {
+        url: trybe,
         en: {
             title: 'Web development training',
-            url: trybe,
             informations: 'December 2022 - 12 months'
         },
         pt: {
             title: 'Formação em desenvolvimento Web',
-            url: trybe,
             informations: 'Dezembro de 2022 - 12 meses'
         }
     },
     {
+        url: admSf,
         en: {
             title: 'Beginner Salesforce Administrator Course',
-            url: admSf,
             informations: 'Novembro de 2022 - 3.5 horas'
         },
         pt: {
             title: 'Curso Administrador Salesforce iniciante',
-            url: admSf,
             informations: 'November 2022 – 3.5 hours'
         }
     }
