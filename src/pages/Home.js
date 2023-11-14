@@ -11,9 +11,9 @@ const Home = () => {
   return (
     <div className="home">
       <section id="content-home">
-        <h1 className="titleHome">{Translations[language].titleHome} <img alt="Hand" src={hand} className="hand-home" />
+        <h1 className="titleHome">{Translations[language].homeTitle} <img alt="Hand" src={hand} className="hand-home" />
         <br />
-        {Translations[language].titleHome_1} <span id="name-home">KLECIANNY MELO</span></h1>
+        {Translations[language].homeTitle_1} <span id="name-home">KLECIANNY MELO</span></h1>
         <img alt="Avatar" src={firstAvatar} id="avatar-home" />
       </section>
     </div>

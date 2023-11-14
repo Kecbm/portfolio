@@ -20,7 +20,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <h4 id="text-footer">{Translations[language].textFooter} 
+      <h4 id="text-footer">{Translations[language].footerText} 
         {' '}
         {icons.map((icon, index) => (
             <span
@@ -32,7 +32,7 @@ const Footer = () => {
             </span>
         ))}
         {' '}
-        {Translations[language].textFooter_1} 
+        {Translations[language].footerText_1} 
         {' '}
         <span id="name-footer">Klecianny Melo</span>
       </h4>
