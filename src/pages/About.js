@@ -80,7 +80,7 @@ const About = () => {
       {
           formations.map((formation, index) => (
               <div key={index} className='card-formation'>
-                  <img src={formation[language].url} alt={formation[language].title} className='img-formation'/>
+                  <img src={formation.url} alt={formation[language].title} className='img-formation'/>
                   <div id='card-formation-footer'>
                     <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/c4c2bf/calendar.png" alt="calendar"/>
                     <p className='about-formation'>
