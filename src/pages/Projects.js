@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import projects from '../data/Projects';
 import '../css/Projects.css';
+import { useLanguage } from '../context/LanguageContext';
+import Translations from '../locales/Translations';
 
 
 function Projects() {
   const [filteredProjects, setFilteredProjects] = useState(projects);
   const [selectedTag, setSelectedTag] = useState('todos');
+  const { language } = useLanguage();
 
   const imgStyle = {
     height: '100px',
@@ -65,10 +68,10 @@ function Projects() {
       <div className="project-list">
         {
           filteredProjects.map((project) => (
-            <div key={ project.title } className={project.isSideProject ? "card side-project-card" : "card all-cards"}>
-              <img src={ project.image } alt={ project.title } style={ imgStyle }/>
-              <h3 className="titleProject">{ project.title }</h3>
-              <p className="pProject">{ project.description }</p>
+            <div key={ project[language].title } className={project.isSideProject ? "card side-project-card" : "card all-cards"}>
+              <img src={ project.image } alt={ project[language].title } style={ imgStyle }/>
+              <h3 className="titleProject">{ project[language].title }</h3>
+              <p className="pProject">{ project[language].description }</p>
               {
                 project.deploy ? <button className="buttonProject"><a href={ project.deploy } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/web.png" alt="web"/></a></button> : null
               }
