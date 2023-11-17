@@ -1,5 +1,18 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/hearing.png',
+    url: 'https://dev.to/kecbm/the-power-of-active-listening-for-developers-2pd5',
+    location: 'Dev.to',
+    en: {
+      title: 'The Power of Active Listening for Developers',
+      date: 'November 2023'
+    },
+    pt: {
+      title: 'O poder da escuta ativa para desenvolvedores',
+      date: 'Novembro de 2023'
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/book-shelf.png',
     url: 'https://br24.io/blog/playbook/',
     location: 'Br24',
