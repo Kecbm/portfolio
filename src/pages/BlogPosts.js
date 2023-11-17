@@ -2,7 +2,6 @@ import React from 'react';
 import blogPosts from '../data/BlogPosts';
 import '../css/BlogPosts.css';
 import { useLanguage } from '../context/LanguageContext';
-import Translations from '../locales/Translations';
 
 const BlogPosts = () => {
   const { language } = useLanguage();
