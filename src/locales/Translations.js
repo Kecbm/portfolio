@@ -20,6 +20,10 @@ const translations = {
         about_list_4: 'Food Engineering',
         about_list_5: 'Federal University of Agreste de Pernambuco',
 
+        // Projects
+        projectTitle: 'Projects',
+        projectButton: 'All',
+
         // Contact
         contactTitle: 'Contact',
     },
@@ -43,6 +47,10 @@ const translations = {
         about_list_3: 'Desenvolvimento Web Full Stack',
         about_list_4: 'Engenharia de Alimentos',
         about_list_5: 'Universidade Federal do Agreste de Pernambuco',
+
+        // Projects
+        projectTitle: 'Projetos',
+        projectButton: 'Todos',
 
         // Contact
         contactTitle: 'Contato',

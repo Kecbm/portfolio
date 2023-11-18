@@ -32,13 +32,13 @@ function Projects() {
 
   return (
     <div className="projects">
-      <h1 className="h1Project">PROJETOS</h1>
+      <h1 className="h1Project">{Translations[language].projectTitle}</h1>
       <div id="btn-filter">
         <button
           onClick={() => handleTagClick(['todos'])}
           className={selectedTag === 'todos' ? 'btn btn-tag-active' : 'btn  btn-tag'}
         >
-          Todos
+          {Translations[language].projectButton}
         </button>
         <button
           onClick={() => handleTagClick(['design'])}
