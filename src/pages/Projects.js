@@ -72,16 +72,18 @@ function Projects() {
               <img src={ project.image } alt={ project[language].title } style={ imgStyle }/>
               <h3 className="titleProject">{ project[language].title }</h3>
               <p className="pProject">{ project[language].description }</p>
-              {
-                project.deploy ? <button className="buttonProject"><a href={ project.deploy } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/web.png" alt="web"/></a></button> : null
-              }
-              {
-                project.type && project.type.includes('design') ? (
-                  <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/figma.png" alt="figma"/></a></button>
-                ) : (
-                  <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/github.png" alt="github"/></a></button>
-                )
-              }
+              <div>
+                {
+                  project.deploy ? <button className="buttonProject"><a href={ project.deploy } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/web.png" alt="web"/></a></button> : null
+                }
+                {
+                  project.type && project.type.includes('design') ? (
+                    <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/figma.png" alt="figma"/></a></button>
+                  ) : (
+                    <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/github.png" alt="github"/></a></button>
+                  )
+                }
+              </div>
             </div>
           ))
         }
