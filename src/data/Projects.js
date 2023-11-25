@@ -3,14 +3,14 @@ const projects = [
     isSideProject: true,
     type: 'frontend',
     image: 'https://img.icons8.com/stickers/100/overview-pages-2.png',
-    deploy: 'https://rinhadefrontend.vercel.app/',
-    github: 'https://github.com/Kecbm/rinha-de-frontend',
+    deploy: 'https://viewerjson.vercel.app/',
+    github: 'https://github.com/Kecbm/viewer-json',
     en: {
-      title: 'Frontend Rinha',
+      title: 'JSON Viewer',
       description: 'Accessible website where you upload and view JSON files simply and quickly',
     },
     pt: {
-      title: 'Rinha de Frontend',
+      title: 'Visualizador de JSON',
       description: 'Site acessível onde você carrega e visualiza arquivos JSON de forma simples e rápida',
     }
   },
