@@ -1,5 +1,18 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/web.png',
+    url: 'https://dev.to/kecbm/uncovering-the-react-universe-the-starter-guide-3jkf',
+    location: 'Dev.to',
+    en: {
+      title: 'Uncovering the React Universe: The Starter Guide',
+      date: 'November 2023'
+    },
+    pt: {
+      title: 'Descobrindo o universo React: o guia para iniciantes',
+      date: 'Novembro de 2023'
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/hearing.png',
     url: 'https://dev.to/kecbm/the-power-of-active-listening-for-developers-2pd5',
     location: 'Dev.to',
