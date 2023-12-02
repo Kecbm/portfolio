@@ -1,5 +1,18 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/office.png',
+    url: 'https://dev.to/kecbm/de-volta-ao-codigo-como-conquistei-minha-realocacao-no-mercado-de-tecnologia-4n5n',
+    location: 'Dev.to',
+    en: {
+      title: 'Back to Code: How I Conquered My Relocation in the Technology Market',
+      date: 'December 2023'
+    },
+    pt: {
+      title: 'De Volta ao Código: Como Conquistei Minha Realocação no Mercado de Tecnologia',
+      date: 'Dezembro de 2023'
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/web.png',
     url: 'https://dev.to/kecbm/uncovering-the-react-universe-the-starter-guide-3jkf',
     location: 'Dev.to',
