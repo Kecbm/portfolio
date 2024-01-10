@@ -22,7 +22,7 @@ select:hover {
 }
   
 select:focus {
-outline: 3px solid #f74a18;
+    outline: 3px solid #f74a18;
 }
   
 option {
