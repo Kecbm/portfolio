@@ -1,17 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400&display=swap');
 
 .Header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 60px;
   max-width: 100%;
-  width: 100vw;
   background-color: #0c0d11;
   padding: 15px;
-  position: fixed;
-  margin-top: 0;
-  z-index: 1;
 };
 
 .link {
@@ -111,49 +107,34 @@
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-
-.img-container {
-  margin-right: 10px;
-  color: #7a7772;
-  padding: 10px;
-  background-color:  	#161b23;
-  border-radius: 5px;
-}
-
-.linkHeader:hover {
+.btn-header {
+  margin: 10px;
+  height: 60px;
+  width: 80px;
+  background-color: #161B23;
+  font-weight: bold;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
   border: none;
-  color: #9d9a94;
-}
-
-.icons-header {
-  width: 40px;
-  /* margin-bottom: -7px; */
-}
-
-nav .linkHeader {
-  position: relative;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-nav .linkHeader::after {
-  content: " ";
-  width: 0%;
-  height: 4px;
-  background-color: #f74a18;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transition: 0.5s ease-in-out;
-  border-radius: 5px;
+.btn-header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #c4c2bf;
 }
 
-nav .linkHeader:hover::after {
-  width: 85%;
+.btn-header:hover {
+  outline: 3px solid #f74a18;
+}
+
+.icons-header {
+  width: 35px;
+  margin-bottom: 3px;
 }
 
 .link-rout {

@@ -3,67 +3,54 @@ import { Link } from 'react-router-dom';
 import Translation from './Translation';
 import '../css/Header.css';
 
-const imgStyle = {
-  borderRadius: '60%'
-};
-
 class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <div>{' '}</div>
-        <img
-          src="https://avatars.githubusercontent.com/u/67391952?v=4"
-          alt="Minha foto de perfil"
-          height="70px"
-          style={ imgStyle }
-          className="imgHeader"
-        />
         <h1 className="titleHeader">KLECIANNY MELO</h1>
         <nav>
           <Link to="/" className="link-rout">
-            <a href="#inicio" className="linkHeader">
-              <div className="img-container">
+            <button className="btn-header">
+              <div>
                 <img title="Home" alt="Home" src="https://img.icons8.com/ios/50/7a7772/home--v1.png" className="icons-header" />
+                HOME
               </div>
-            </a>
+            </button>
           </Link>
-          {' '}
           <Link to="/about" className="link-rout">
-            <a href="#sobre" className="linkHeader">
-              <div className="img-container">
+            <button className="btn-header">
+              <div>
                 <img title="Sobre" alt="Sobre" src="https://img.icons8.com/ios/50/7a7772/gender-neutral-user--v1.png" className="icons-header" />
+                ABOUT
               </div>
-            </a>
+            </button>
           </Link>
-          {' '}
           <Link to="/projects" className="link-rout">
-            <a href="#projetos" className="linkHeader">
-              <div className="img-container">
+            <button className="btn-header">
+              <div>
                 <img title="Projetos" alt="Projetos" src="https://img.icons8.com/ios/50/7a7772/programming.png" className="icons-header" />
+                PROJECTS
               </div>
-            </a>
+            </button>
           </Link>
-          {' '}
           <Link to="/blogposts" className="link-rout">
-            <a href="#blogposts" className="linkHeader">
-              <div className="img-container">
+            <button className="btn-header">
+              <div>
                 <img title="Blog Posts" alt="Blog Posts" src="https://img.icons8.com/ios/50/7a7772/agreement.png" className="icons-header" />
+                ARTICLES
               </div>
-            </a>
+            </button>
           </Link>
-          {' '}
           <Link to="/contact" className="link-rout">
-            <a href="#contato" className="linkHeader">
-              <div className="img-container">
+            <button className="btn-header">
+              <div>
                 <img title="Contato" alt="Contato" src="https://img.icons8.com/ios/50/7a7772/contact-card.png" className="icons-header" />
+                CONTACT
               </div>
-            </a>
+            </button>
           </Link>
-          {' '}
         </nav>
         <Translation />
-        <div>{' '}</div>
       </div>
     );
   }
