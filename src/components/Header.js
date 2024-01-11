@@ -1,72 +1,61 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Translation from './Translation';
 import '../css/Header.css';
+import { useLanguage } from '../context/LanguageContext';
+import Translations from '../locales/Translations';
 
-const imgStyle = {
-  borderRadius: '60%'
-};
+const Header = () => {
+  const { language } = useLanguage();
 
-class Header extends Component {
-  render() {
-    return (
-      <div className="Header">
-        <div>{' '}</div>
-        <img
-          src="https://avatars.githubusercontent.com/u/67391952?v=4"
-          alt="Minha foto de perfil"
-          height="70px"
-          style={ imgStyle }
-          className="imgHeader"
-        />
-        <h1 className="titleHeader">KLECIANNY MELO</h1>
-        <nav>
-          <Link to="/" className="link-rout">
-            <a href="#inicio" className="linkHeader">
-              <div className="img-container">
-                <img title="Home" alt="Home" src="https://img.icons8.com/ios/50/7a7772/home--v1.png" className="icons-header" />
-              </div>
-            </a>
-          </Link>
-          {' '}
-          <Link to="/about" className="link-rout">
-            <a href="#sobre" className="linkHeader">
-              <div className="img-container">
-                <img title="Sobre" alt="Sobre" src="https://img.icons8.com/ios/50/7a7772/gender-neutral-user--v1.png" className="icons-header" />
-              </div>
-            </a>
-          </Link>
-          {' '}
-          <Link to="/projects" className="link-rout">
-            <a href="#projetos" className="linkHeader">
-              <div className="img-container">
-                <img title="Projetos" alt="Projetos" src="https://img.icons8.com/ios/50/7a7772/programming.png" className="icons-header" />
-              </div>
-            </a>
-          </Link>
-          {' '}
-          <Link to="/blogposts" className="link-rout">
-            <a href="#blogposts" className="linkHeader">
-              <div className="img-container">
-                <img title="Blog Posts" alt="Blog Posts" src="https://img.icons8.com/ios/50/7a7772/agreement.png" className="icons-header" />
-              </div>
-            </a>
-          </Link>
-          {' '}
-          <Link to="/contact" className="link-rout">
-            <a href="#contato" className="linkHeader">
-              <div className="img-container">
-                <img title="Contato" alt="Contato" src="https://img.icons8.com/ios/50/7a7772/contact-card.png" className="icons-header" />
-              </div>
-            </a>
-          </Link>
-          {' '}
-        </nav>
-        <Translation />
-        <div>{' '}</div>
-      </div>
-    );
-  }
+  return (
+    <div className="Header">
+      <h1 className="titleHeader">KLECIANNY MELO</h1>
+      <nav>
+        <Link to="/" className="link-rout">
+          <button className="btn-header">
+            <div>
+              <img title="Home" alt="Home" src="https://img.icons8.com/ios/50/7a7772/home--v1.png" className="icons-header" />
+              {Translations[language].headerHome}
+            </div>
+          </button>
+        </Link>
+        <Link to="/about" className="link-rout">
+          <button className="btn-header">
+            <div>
+              <img title="Sobre" alt="Sobre" src="https://img.icons8.com/ios/50/7a7772/gender-neutral-user--v1.png" className="icons-header" />
+              {Translations[language].headerAbout}
+            </div>
+          </button>
+        </Link>
+        <Link to="/projects" className="link-rout">
+          <button className="btn-header">
+            <div>
+              <img title="Projetos" alt="Projetos" src="https://img.icons8.com/ios/50/7a7772/programming.png" className="icons-header" />
+              {Translations[language].headerProjects}
+            </div>
+          </button>
+        </Link>
+        <Link to="/blogposts" className="link-rout">
+          <button className="btn-header">
+            <div>
+              <img title="Blog Posts" alt="Blog Posts" src="https://img.icons8.com/ios/50/7a7772/agreement.png" className="icons-header" />
+              {Translations[language].headerArticles}
+            </div>
+          </button>
+        </Link>
+        <Link to="/contact" className="link-rout">
+          <button className="btn-header">
+            <div>
+              <img title="Contato" alt="Contato" src="https://img.icons8.com/ios/50/7a7772/contact-card.png" className="icons-header" />
+              {Translations[language].headerContact}
+            </div>
+          </button>
+        </Link>
+      </nav>
+      <Translation />
+    </div>
+  );
 }
 
 export default Header;
