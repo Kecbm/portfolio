@@ -1,5 +1,12 @@
 const translations = {
     en: {
+        // Header
+        headerHome: 'HOME',
+        headerAbout: 'ABOUT',
+        headerProjects: 'PROJECTS',
+        headerArticles: 'ARTICLES',
+        headerContact: 'CONTACT',
+
         // Home
         homeTitle: 'Hello! ',
         homeTitle_1: 'I am ',
@@ -28,6 +35,13 @@ const translations = {
         contactTitle: 'Contact',
     },
     pt: {
+        // Header
+        headerHome: 'INÍCIO',
+        headerAbout: 'SOBRE',
+        headerProjects: 'PROJETOS',
+        headerArticles: 'ARTIGOS',
+        headerContact: 'CONTATO',
+
         // Home
         homeTitle: 'Olá! ',
         homeTitle_1: 'Eu sou ',
