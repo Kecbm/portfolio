@@ -1,5 +1,18 @@
 const blogPosts = [
   {
+    image: '',
+    url: 'https://dev.to/kecbm/voce-deve-trabalhar-pra-voce-por-zarathon-viana-ldj',
+    location: 'Dev.to',
+    en: {
+      title: 'Você deve trabalhar pra você Por Zarathon Viana',
+      date: 'February 2024'
+    },
+    pt: {
+      title: 'Você deve trabalhar pra você Por Zarathon Viana',
+      date: 'Fevereiro de 2024'
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/office.png',
     url: 'https://dev.to/kecbm/de-volta-ao-codigo-como-conquistei-minha-realocacao-no-mercado-de-tecnologia-4n5n',
     location: 'Dev.to',
