@@ -1,6 +1,6 @@
 const blogPosts = [
   {
-    image: '',
+    image: 'https://img.icons8.com/stickers/100/remote-desktop.png',
     url: 'https://dev.to/kecbm/voce-deve-trabalhar-pra-voce-por-zarathon-viana-ldj',
     location: 'Dev.to',
     en: {
