@@ -1,10 +1,23 @@
 const blogPosts = [
   {
     image: 'https://img.icons8.com/stickers/100/remote-desktop.png',
+    url: 'https://dev.to/kecbm/staircase-detail-112g',
+    location: 'Dev.to',
+    en: {
+      title: 'Staircase detail',
+      date: 'February 2024'
+    },
+    pt: {
+      title: 'Staircase detail',
+      date: 'Fevereiro de 2024'
+    }
+  },
+  {
+    image: 'https://img.icons8.com/stickers/100/briefcase--v1.png',
     url: 'https://dev.to/kecbm/voce-deve-trabalhar-pra-voce-por-zarathon-viana-ldj',
     location: 'Dev.to',
     en: {
-      title: 'Você deve trabalhar pra você Por Zarathon Viana',
+      title: 'You must work for yourself By Zarathon Viana',
       date: 'February 2024'
     },
     pt: {
