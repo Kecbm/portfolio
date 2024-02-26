@@ -1,5 +1,18 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/web-design.png',
+    url: 'https://dev.to/kecbm/codigo-legado-razoes-para-respeitar-e-valorizar-4e9o',
+    location: 'Dev.to',
+    en: {
+      title: 'Legacy Code: Reasons to Respect and Value',
+      date: 'February 2024'
+    },
+    pt: {
+      title: 'Código Legado: Razões para Respeitar e Valorizar',
+      date: 'Fevereiro de 2024'
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/remote-desktop.png',
     url: 'https://dev.to/kecbm/staircase-detail-112g',
     location: 'Dev.to',
