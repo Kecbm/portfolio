@@ -1,5 +1,18 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/womens-watch.png',
+    url: 'https://dev.to/kecbm/time-conversion-383d',
+    location: 'Dev.to',
+    en: {
+      title: 'Time conversion',
+      date: 'March 2024'
+    },
+    pt: {
+      title: 'Conversão de tempo',
+      date: 'Março de 2024'
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/web-design.png',
     url: 'https://dev.to/kecbm/codigo-legado-razoes-para-respeitar-e-valorizar-4e9o',
     location: 'Dev.to',
