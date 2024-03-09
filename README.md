@@ -99,6 +99,14 @@ Tela Projects:
 - [Eduardo](https://eduardosilveira.com/)
 - [ ] Linha do tempo de atuação profissional + formação acadêmica;
 
+- **Inspirações para a V4**:
+- _Visual do VS Code_: https://victor-aremu.firebaseapp.com/
+- _Terminal_: https://utkarshs-terminal.netlify.app/
+- https://yashitanamdeo.github.io/
+- https://portfolio-nailheart.vercel.app/
+- https://long18.github.io/
+
+
 <br>
 
 <p align="right"><a href="#top">Voltar ao topo ☝</a></p>
