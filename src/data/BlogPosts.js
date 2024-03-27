@@ -1,5 +1,44 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/twitter.png',
+    url: 'https://dev.to/kecbm/como-participar-da-bolha-dev-no-twitter-um-guia-para-desenvolvedores-11ol',
+    location: 'Dev.to',
+    en: {
+      title: 'How to Join the Twitter Dev Bubble: A Guide for Developers',
+      date: 'March 2024'
+    },
+    pt: {
+      title: 'Como Participar da Bolha Dev no Twitter: Um Guia para Desenvolvedores',
+      date: 'Março de 2024'
+    }
+  },
+  {
+    image: 'https://img.icons8.com/stickers/100/blackboard.png',
+    url: 'https://dev.to/kecbm/grading-students-5eok',
+    location: 'Dev.to',
+    en: {
+      title: 'Grading students',
+      date: 'March 2024'
+    },
+    pt: {
+      title: 'Avaliando alunos',
+      date: 'Março de de 2024'
+    }
+  },
+  {
+    image: 'https://img.icons8.com/stickers/100/cancel.png',
+    url: 'https://dev.to/kecbm/por-que-e-vital-aprender-a-dizer-nao-no-ambiente-profissional-cc3',
+    location: 'Dev.to',
+    en: {
+      title: 'Why it is vital to learn to say no in a professional environment',
+      date: 'March 2024'
+    },
+    pt: {
+      title: 'Por que é vital aprender a dizer não no ambiente profissional',
+      date: 'Março de 2024'
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/womens-watch.png',
     url: 'https://dev.to/kecbm/time-conversion-383d',
     location: 'Dev.to',
