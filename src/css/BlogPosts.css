@@ -39,14 +39,6 @@
   /* color: #f2f2f2; */
 }
 
-/* .tag-location {
-  height: 35px;
-  padding: 5px 10px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-} */
-
 .img-card-blog {
   height: 100px;
   width: 100px;
@@ -66,15 +58,6 @@
   font-family: Bebas Neue;
   font-size: 30px;
   /* margin-bottom: 2%; */
-}
-
-.date-blog {
-  text-align: center;
-  font-family: Open Sans;
-  color: #000000;
-  font-size: 18px;
-  font-weight: 600;
-  margin-left: 10px;
 }
 
 .linkBlog {
@@ -98,19 +81,6 @@
 
 .buttonBlog:hover {
   background-color: #47505d;
-}
-
-#line {
-  width: 100%;
-  height: 2px;
-  background-color: #0c0d11;
-  margin: 2px;
-}
-
-#footer-blog {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* 320px — 480px: dispositivos móveis */
