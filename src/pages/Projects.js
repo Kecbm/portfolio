@@ -74,13 +74,13 @@ function Projects() {
               <p className="pProject">{ project[language].description }</p>
               <div>
                 {
-                  project.deploy ? <button className="buttonProject"><a href={ project.deploy } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/web.png" alt="web"/></a></button> : null
+                  project.deploy ? <button className="buttonProject"><a href={ project.deploy } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/external-link.png" alt="Url for the project" title="Visit this project"/></a></button> : null
                 }
                 {
                   project.type && project.type.includes('design') ? (
                     <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/figma.png" alt="figma"/></a></button>
                   ) : (
-                    <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/github.png" alt="github"/></a></button>
+                    <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/github.png" alt="github" title="View the code"/></a></button>
                   )
                 }
               </div>

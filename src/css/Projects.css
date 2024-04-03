@@ -132,17 +132,22 @@
   font-family: Bebas Neue;
   font-size: 20px;
   text-align: center;
-  width: 44px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   border: solid transparent;
   border-radius: 5px;
   background-color: #2d3138;
-  margin-top: 14px;
+  /* margin-top: 14px; */
   margin-right: 5px;
 }
 
 .buttonProject:hover {
   background-color: #47505d;
+}
+
+.buttonProject img {
+  display: flex;
+  margin: auto;
 }
 
 .titleProject {
