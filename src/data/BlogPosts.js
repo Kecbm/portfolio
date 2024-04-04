@@ -1,5 +1,15 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/resume-website.png',
+    url: 'https://dev.to/kecbm/como-um-portfolio-pode-impulsionar-sua-carreira-5dk6',
+    en: {
+      title: 'How a Portfolio Can Boost Your Career',
+    },
+    pt: {
+      title: 'Como um Portfólio Pode Impulsionar sua Carreira',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/bitten-apple.png',
     url: 'https://dev.to/kecbm/apple-and-orange-2g82',
     en: {
