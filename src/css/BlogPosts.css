@@ -4,7 +4,6 @@
   position: relative;
   top: 90px;
   background-color: #0e141b;
-  color: #c4c2bf;
   min-height: 100vh;
   max-height: fit-content;
   max-width: 100%;
@@ -47,14 +46,14 @@
 }
 
 .h1Blog {
-  color: #c4c2bf;
+  color: #ffffff;
   font-family: Bebas Neue;
   font-size: 60px;
   margin-bottom: 55px;
 }
 
 .titleBlog {
-  color: #c4c2bf;
+  color: #ffffff;
   font-family: Bebas Neue;
   font-size: 30px;
   /* margin-bottom: 2%; */

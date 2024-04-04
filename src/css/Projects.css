@@ -112,16 +112,22 @@
 }
 
 .h1Project {
-  color: #c4c2bf;
+  color: #ffffff;
   font-family: Bebas Neue;
   font-size: 60px;
   /* margin-bottom: 55px; */
 }
 
+.titleProject {
+  color: #ffffff;
+  font-family: Bebas Neue;
+  font-size: 31px;
+}
+
 .pProject {
   text-align: center;
   font-family: Open Sans;
-  color: #c4c2bf;
+  color: #efefef;
   font-size: 20px;
   font-weight: 400;
   padding: 10px;
@@ -150,11 +156,6 @@
   margin: auto;
 }
 
-.titleProject {
-  color: #c4c2bf;
-  font-family: Bebas Neue;
-  font-size: 31px;
-}
 /* titulo de 24px ou 36px e texto de 16px ou 18px */
 /* 320px — 480px: dispositivos móveis */
 @media (max-width: 480px) {
