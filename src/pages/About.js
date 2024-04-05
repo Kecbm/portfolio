@@ -26,7 +26,6 @@ const About = () => {
           <img title="Python" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
           <img title="C Sharp" alt="C Sharp" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" />
           <img title="PHP" alt="PHP" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-          
           <img title="React" alt="React" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
           <img title="Redux" alt="Redux" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" />
           <img title="React Testing Library" alt="React Testing Library" src="https://testing-library.com/img/logo-large.png" />
