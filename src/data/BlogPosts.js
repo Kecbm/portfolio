@@ -1,5 +1,15 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/kangaroo.png',
+    url: 'https://dev.to/kecbm/number-line-jumps-1ig',
+    en: {
+      title: 'Number Line Jumps',
+    },
+    pt: {
+      title: 'Saltos de linha numérica',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/resume-website.png',
     url: 'https://dev.to/kecbm/como-um-portfolio-pode-impulsionar-sua-carreira-5dk6',
     en: {
