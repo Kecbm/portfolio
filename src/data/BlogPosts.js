@@ -1,5 +1,15 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/film-soundtracks.png',
+    url: 'https://dev.to/kecbm/desenvolvimento-orientado-ao-mvp-minimo-produto-viavel-km4',
+    en: {
+      title: 'MVP (Minimum Viable Product) Oriented Development',
+    },
+    pt: {
+      title: 'Desenvolvimento Orientado ao MVP (Mínimo Produto Viável)',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/kangaroo.png',
     url: 'https://dev.to/kecbm/number-line-jumps-1ig',
     en: {
