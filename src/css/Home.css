@@ -22,6 +22,10 @@
   font-size: 120px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .hand-home {
   width: 100px;
 }
