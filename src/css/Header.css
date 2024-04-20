@@ -29,6 +29,10 @@
   -webkit-animation: Color 4s ease-in-out infinite;
 }
 
+a {
+  text-decoration: none;
+}
+
 @keyframes Color{
   0%{
     color:#A0D468;
