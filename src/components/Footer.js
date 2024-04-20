@@ -34,7 +34,9 @@ const Footer = () => {
         {' '}
         {Translations[language].footerText_1} 
         {' '}
-        <span id="name-footer">Klecianny Melo</span>
+        <a href="https://github.com/Kecbm" target="_blank" rel="noopener noreferrer">
+          <span id="name-footer">Klecianny Melo</span>
+        </a>
       </h4>
     </footer>
   );
