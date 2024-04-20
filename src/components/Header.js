@@ -12,14 +12,18 @@ class Header extends Component {
     return (
       <div className="Header">
         <div>{' '}</div>
-        <img
-          src="https://avatars.githubusercontent.com/u/67391952?v=4"
-          alt="Minha foto de perfil"
-          height="70px"
-          style={ imgStyle }
-          className="imgHeader"
-        />
-        <h1 className="titleHeader">KLECIANNY MELO</h1>
+        <a href="https://github.com/Kecbm" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://avatars.githubusercontent.com/u/67391952?v=4"
+            alt="Minha foto de perfil"
+            height="70px"
+            style={ imgStyle }
+            className="imgHeader"
+          />
+        </a>
+        <a href="https://github.com/Kecbm" target="_blank" rel="noopener noreferrer">
+          <h1 className="titleHeader">KLECIANNY MELO</h1>
+        </a>
         <nav>
           <Link to="/" className="link-rout">
             <a href="#inicio" className="linkHeader">
