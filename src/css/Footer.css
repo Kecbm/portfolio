@@ -21,6 +21,10 @@ footer {
   color: #dcdcdc;
 }
 
+a {
+  text-decoration: none;
+}
+
 #name-footer {
   color: #F5F5F5;
   font-family: Bebas Neue;
