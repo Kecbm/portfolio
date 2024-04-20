@@ -13,7 +13,7 @@ const Home = () => {
       <section id="content-home">
         <h1 className="titleHome">{Translations[language].homeTitle} <img alt="Hand" src={hand} className="hand-home" />
         <br />
-        {Translations[language].homeTitle_1} <span id="name-home">KLECIANNY MELO</span></h1>
+        {Translations[language].homeTitle_1} <a href="https://github.com/Kecbm" target="_blank" rel="noopener noreferrer"><span id="name-home">KLECIANNY MELO</span></a></h1>
         <img alt="Avatar" src={firstAvatar} id="avatar-home" />
       </section>
     </div>
