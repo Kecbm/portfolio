@@ -1,5 +1,15 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/handshake-skin-type-3.png',
+    url: 'https://dev.to/kecbm/como-cultivar-empatia-com-os-colegas-da-squad-dicas-para-um-ambiente-de-trabalho-saudavel-3fkj',
+    en: {
+      title: 'How to Cultivate Empathy with Squad Colleagues',
+    },
+    pt: {
+      title: 'Como Cultivar Empatia com os Colegas da Squad',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/film-soundtracks.png',
     url: 'https://dev.to/kecbm/desenvolvimento-orientado-ao-mvp-minimo-produto-viavel-km4',
     en: {
