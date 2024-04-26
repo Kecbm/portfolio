@@ -78,9 +78,17 @@ function Projects() {
                 }
                 {
                   project.type && project.type.includes('design') ? (
-                    <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/figma.png" alt="figma"/></a></button>
+                    <button className="buttonProject">
+                      <a href={ project.github } target="_blank" className="linkProject" rel="noreferrer">
+                        <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/figma.png" alt="figma"/>
+                      </a>
+                    </button>
                   ) : (
-                    <button className="buttonProject"><a href={ project.github } target="_blank" className="linkProject" rel="noreferrer"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/github.png" alt="github" title="View the code"/></a></button>
+                    <button className="buttonProject">
+                      <a href={ project.github } target="_blank" className="linkProject" rel="noreferrer">
+                        <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/0c0d11/github.png" alt="github" title="View the code"/>
+                      </a>
+                    </button>
                   )
                 }
               </div>
