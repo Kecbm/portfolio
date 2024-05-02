@@ -1,5 +1,15 @@
 const blogPosts = [
   {
+    image: 'https://img.icons8.com/stickers/100/abacus.png',
+    url: 'https://dev.to/kecbm/divisible-sum-pairs-159h',
+    en: {
+      title: 'Divisible sum pairs',
+    },
+    pt: {
+      title: 'Pares de soma divisível',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/handshake-skin-type-3.png',
     url: 'https://dev.to/kecbm/como-cultivar-empatia-com-os-colegas-da-squad-dicas-para-um-ambiente-de-trabalho-saudavel-3fkj',
     en: {
