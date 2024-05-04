@@ -10,7 +10,7 @@ const translations = {
 
         // About
         aboutTitle: 'About',
-        aboutText: 'Hello, I am Klecianny Melo. I focus my efforts on driving code quality and leading innovative initiatives, such as encouraging the use of Codeium AI. I actively share knowledge through articles on the Br24 blog and on my Dev.to profile. Outside of the technological world, I cycle to stay healthy. My journey is one of continuous learning and collaboration in the development community.',
+        aboutText: 'Hello, I am Klecianny Melo. I focus my efforts on driving code quality and leading innovative initiatives, such as encouraging the use of AI. I actively share knowledge through articles on my Dev.to profile. Outside of the technological world, I cycle to stay healthy. My journey is one of continuous learning and collaboration in the development community.',
         aboutTitle_1: 'Professional performance',
         about_list: 'Full Stack PHP Developer',
         about_list_1: 'Saxophonist at the Manoel Rabelo Orchestra',
@@ -38,7 +38,7 @@ const translations = {
 
         // About
         aboutTitle: 'Sobre',
-        aboutText: 'Olá, Eu sou Klecianny Melo. Concentro meus esforços em impulsionar a qualidade do código e liderar iniciativas inovadoras, como o incentivo da utilização da IA Codeium. Compartilho ativamente conhecimentos através de artigos no blog da Br24 e no meu perfil do Dev.to. Fora do mundo tecnológico, pratico ciclismo para me manter saudável. Minha jornada é de aprendizado contínuo e colaboração na comunidade de desenvolvimento.',
+        aboutText: 'Olá, Eu sou Klecianny Melo. Concentro meus esforços em impulsionar a qualidade do código e liderar iniciativas inovadoras, como o incentivo da utilização da IA. Compartilho ativamente conhecimentos através de artigos no meu perfil do Dev.to. Fora do mundo tecnológico, pratico ciclismo para me manter saudável. Minha jornada é de aprendizado contínuo e colaboração na comunidade de desenvolvimento.',
         aboutTitle_1: 'Atuação Profissional',
         about_list: 'Desenvolvedora PHP Full Stack',
         about_list_1: 'Saxofonista na Orquestra Manoel Rabelo',
