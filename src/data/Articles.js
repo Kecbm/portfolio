@@ -1,4 +1,4 @@
-const blogPosts = [
+const articles = [
   {
     image: 'https://img.icons8.com/stickers/100/abacus.png',
     url: 'https://dev.to/kecbm/divisible-sum-pairs-159h',
@@ -231,4 +231,4 @@ const blogPosts = [
   }
 ];
 
-export default blogPosts;
+export default articles;

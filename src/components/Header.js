@@ -49,10 +49,10 @@ class Header extends Component {
             </a>
           </Link>
           {' '}
-          <Link to="/blogposts" className="link-rout">
-            <a href="#blogposts" className="linkHeader">
+          <Link to="/articles" className="link-rout">
+            <a href="#articles" className="linkHeader">
               <div className="img-container">
-                <img title="Blog Posts" alt="Blog Posts" src="https://img.icons8.com/ios/50/7a7772/agreement.png" className="icons-header" />
+                <img title="Articles" alt="Articles" src="https://img.icons8.com/ios/50/7a7772/agreement.png" className="icons-header" />
               </div>
             </a>
           </Link>

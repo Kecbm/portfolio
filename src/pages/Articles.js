@@ -1,17 +1,18 @@
 import React from 'react';
-import blogPosts from '../data/BlogPosts';
+import articles from '../data/Articles';
 import '../css/BlogPosts.css';
 import { useLanguage } from '../context/LanguageContext';
+import Translations from '../locales/Translations';
 
-const BlogPosts = () => {
+const Articles = () => {
   const { language } = useLanguage();
 
   return (
     <div className="blogposts">
-      <h1 className="h1Blog">BLOG POSTS</h1>
+      <h1 className="h1Blog">{Translations[language].articleTitle}</h1>
       <div className="blog-list">
         {
-          blogPosts.map((post) => (
+          articles.map((post) => (
             <div key={ post[language].title } className="card-blog">
               <img src={ post.image } alt={ post[language].title } className="img-card-blog"/>
               <h3 className="titleBlog">{ post[language].title }</h3>
@@ -24,5 +25,5 @@ const BlogPosts = () => {
   );
 }
 
-export default BlogPosts;
+export default Articles;
 

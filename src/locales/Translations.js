@@ -24,6 +24,9 @@ const translations = {
         projectTitle: 'Projects',
         projectButton: 'All',
 
+        // Articles
+        articleTitle: 'Articles',
+
         // Contact
         contactTitle: 'Contact',
     },
@@ -51,6 +54,9 @@ const translations = {
         // Projects
         projectTitle: 'Projetos',
         projectButton: 'Todos',
+
+        // Articles
+        articleTitle: 'Artigos',
 
         // Contact
         contactTitle: 'Contato',
