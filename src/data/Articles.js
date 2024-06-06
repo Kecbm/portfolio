@@ -1,5 +1,15 @@
 const articles = [
   {
+    image: 'https://img.icons8.com/stickers/100/brief.png',
+    url: 'https://dev.to/kecbm/o-poder-das-tarefas-como-pequenas-entregas-levam-a-grandes-resultados-2of6',
+    en: {
+      title: 'The Power of Tasks: How Small Deliverables Lead to Big Results',
+    },
+    pt: {
+      title: 'O Poder das Tarefas: Como Pequenas Entregas Levam a Grandes Resultados',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/abacus.png',
     url: 'https://dev.to/kecbm/divisible-sum-pairs-159h',
     en: {
