@@ -1,5 +1,15 @@
 const articles = [
   {
+    image: 'https://img.icons8.com/stickers/100/trophy.png',
+    url: 'https://dev.to/kecbm/breaking-records-55ji',
+    en: {
+      title: 'Breaking Records',
+    },
+    pt: {
+      title: 'Quebrando recordes',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/brief.png',
     url: 'https://dev.to/kecbm/o-poder-das-tarefas-como-pequenas-entregas-levam-a-grandes-resultados-2of6',
     en: {
