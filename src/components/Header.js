@@ -36,7 +36,7 @@ class Header extends Component {
           <Link to="/about" className="link-rout">
             <a href="#sobre" className="linkHeader">
               <div className="img-container">
-                <img title="Sobre" alt="Sobre" src="https://img.icons8.com/ios/50/7a7772/gender-neutral-user--v1.png" className="icons-header" />
+                <img title="About" alt="About" src="https://img.icons8.com/ios/50/7a7772/gender-neutral-user--v1.png" className="icons-header" />
               </div>
             </a>
           </Link>
@@ -44,7 +44,7 @@ class Header extends Component {
           <Link to="/projects" className="link-rout">
             <a href="#projetos" className="linkHeader">
               <div className="img-container">
-                <img title="Projetos" alt="Projetos" src="https://img.icons8.com/ios/50/7a7772/programming.png" className="icons-header" />
+                <img title="Projects" alt="Projects" src="https://img.icons8.com/ios/50/7a7772/programming.png" className="icons-header" />
               </div>
             </a>
           </Link>
@@ -60,7 +60,7 @@ class Header extends Component {
           <Link to="/contact" className="link-rout">
             <a href="#contato" className="linkHeader">
               <div className="img-container">
-                <img title="Contato" alt="Contato" src="https://img.icons8.com/ios/50/7a7772/contact-card.png" className="icons-header" />
+                <img title="Contact" alt="Contact" src="https://img.icons8.com/ios/50/7a7772/contact-card.png" className="icons-header" />
               </div>
             </a>
           </Link>
