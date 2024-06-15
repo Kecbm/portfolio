@@ -26,6 +26,10 @@ const translations = {
 
         // Articles
         articleTitle: 'Articles',
+        articleBtn_1: 'All',
+        articleBtn_2: 'Career',
+        articleBtn_3: 'Algorithm',
+        articleBtn_4: 'Business',
 
         // Contact
         contactTitle: 'Contact',
@@ -57,6 +61,10 @@ const translations = {
 
         // Articles
         articleTitle: 'Artigos',
+        articleBtn_1: 'All',
+        articleBtn_2: 'Carreira',
+        articleBtn_3: 'Algoritmo',
+        articleBtn_4: 'Negócios',
 
         // Contact
         contactTitle: 'Contato',
