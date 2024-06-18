@@ -12,12 +12,12 @@
 }
 
 .titleAbout {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 20px;
   color: #ffffff;
   font-family: Bebas Neue;
   font-size: 65px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .text-about {

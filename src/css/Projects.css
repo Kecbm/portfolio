@@ -13,6 +13,7 @@
 
 #btn-filter {
   display: inline-block;
+  margin: 30px;
 }
 
 .btn {
@@ -112,9 +113,11 @@
 }
 
 .h1Project {
+  padding-top: 50px;
+  padding-bottom: 20px;
   color: #ffffff;
   font-family: Bebas Neue;
-  font-size: 60px;
+  font-size: 65px;
   /* margin-bottom: 55px; */
 }
 
