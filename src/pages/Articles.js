@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import articles from '../data/Articles';
-import '../css/BlogPosts.css';
+import '../css/Articles.css';
 import '../css/Projects.css';
 import { useLanguage } from '../context/LanguageContext';
 import Translations from '../locales/Translations';
