@@ -2,21 +2,6 @@ const projects = [
   {
     isSideProject: true,
     type: 'frontend',
-    image: 'https://img.icons8.com/stickers/100/charity.png',
-    deploy: 'https://sos-enchentes.vercel.app/',
-    github: 'https://github.com/sidssouza/sos-enchentes',
-    en: {
-      title: 'SOS Floods',
-      description: 'Pop-up and fixed element for Vakinha SOS Enchentes Rio Grande do Sul',
-    },
-    pt: {
-      title: 'SOS Enchentes',
-      description: 'Pop-up e elemento fixo pra Vakinha SOS Enchentes Rio Grande do Sul',
-    }
-  },
-  {
-    isSideProject: true,
-    type: 'frontend',
     image: 'https://img.icons8.com/stickers/100/overview-pages-2.png',
     deploy: 'https://viewerjson.vercel.app/',
     github: 'https://github.com/Kecbm/viewer-json',
