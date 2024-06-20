@@ -26,6 +26,7 @@
   color: #efefef;
   font-size: 30px;
   text-align: left;
+  white-space: pre-wrap;
 }
 
 .text-bold {
