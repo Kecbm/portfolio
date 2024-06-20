@@ -1,5 +1,16 @@
 const articles = [
   {
+    image: 'https://img.icons8.com/stickers/100/communication.png',
+    url: 'https://dev.to/kecbm/a-importancia-da-comunicacao-para-uma-pessoa-desenvolvedora-4349',
+    type: 'soft skills',
+    en: {
+      title: 'The importance of Communication for a developer',
+    },
+    pt: {
+      title: 'A importância da Comunicação para uma pessoa desenvolvedora',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/trophy.png',
     url: 'https://dev.to/kecbm/breaking-records-55ji',
     type: 'algorithm',
