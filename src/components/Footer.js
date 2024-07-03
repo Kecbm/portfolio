@@ -4,7 +4,7 @@ import { useLanguage } from '../context/LanguageContext';
 import '../css/Footer.css';
 
 const Footer = () => {
-  const icons = ['🤠', '🌵', '🐎', '🪗', '🪨', '🫀', '☀️'];
+  const icons = ['https://img.icons8.com/emoji/48/cowboy-hat-face.png', 'https://img.icons8.com/emoji/48/cactus-emoji.png', 'https://img.icons8.com/emoji/48/horse-emoji.png', 'https://img.icons8.com/emoji/48/accordion-emoji.png', 'https://img.icons8.com/emoji/48/anatomical-heart.png', 'https://img.icons8.com/emoji/48/sun-emoji.png'];
   const [currentIconIndex, setCurrentIconIndex] = useState(0);
   const { language } = useLanguage();
 
@@ -28,7 +28,7 @@ const Footer = () => {
               style={{ display: index === currentIconIndex ? "inline-block" : "none" }}
               className={`icon ${index === currentIconIndex ? 'beat-animation' : ''}`}
             >
-              {icon}
+              <img alt="Icon" src={icon} />
             </span>
         ))}
         {' '}

@@ -32,6 +32,10 @@ a {
   animation: Color 4s linear infinite;
   -webkit-animation: Color 4s ease-in-out infinite;
 }
+
+img {
+  width: 20px;
+}
  
 @keyframes beat {
   0% {
