@@ -1,5 +1,16 @@
 const articles = [
   {
+    image: 'https://img.icons8.com/stickers/100/class.png',
+    url: 'https://dev.to/kecbm/pessoas-desenvolvedoras-precisam-estudar-todos-os-dias-5dea',
+    type: 'career',
+    en: {
+      title: 'Developers need to study every day',
+    },
+    pt: {
+      title: 'Pessoas desenvolvedoras precisam estudar todos os dias',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/communication.png',
     url: 'https://dev.to/kecbm/a-importancia-da-comunicacao-para-uma-pessoa-desenvolvedora-4349',
     type: 'soft skills',
