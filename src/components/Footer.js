@@ -28,7 +28,7 @@ const Footer = () => {
               style={{ display: index === currentIconIndex ? "inline-block" : "none" }}
               className={`icon ${index === currentIconIndex ? 'beat-animation' : ''}`}
             >
-              <img alt="Icon" src={icon} />
+              <img alt="Icon" src={icon} className='icon-footer' />
             </span>
         ))}
         {' '}

@@ -4,7 +4,7 @@ import Translation from './Translation';
 import '../css/Header.css';
 
 const imgStyle = {
-  borderRadius: '60%'
+  borderRadius: '60%',
 };
 
 class Header extends Component {
