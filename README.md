@@ -99,6 +99,26 @@ Tela Projects:
 - [Eduardo](https://eduardosilveira.com/)
 - [ ] Linha do tempo de atuação profissional + formação acadêmica;
 
+- Novas cores para o branding
+- [ ] .newBranding {
+  /* Preto */
+  color: #000408;
+
+  /* Roxo */
+  color: #21094C, #3F1555, #5E1498, #B604DC;
+  color: #7b32f5, #713497, #8943b6, #3c006c, #8905a3;
+
+  /* Verde */
+  color: #E7E264, #C2BF03, #F0EC75, #F4F51C, #6BDA3B, #BFDB07, #E2D90E, #EAE63B, #D9EC74, #A1BE34, #D9E266, #9BED58;
+  color: #ddd032, #e2fb14, #e6d829, #e5dc0d, #4fc121, #399a16, #2e7516, #def526, #95af01, #f4f41b, #d8cc1a, #c2dd3e, #a4c31f, #809b15, #758d23, #d2d738, #c8c62a, #83e239, #63c81a, #4a9f11, #3a7912, #316014, #2b5215, #132d06;
+
+  /* Marrom */
+  color: #DFB692, #E8D6C6;
+  color: #d19166, #c77648, #b9623d, #9a4e34, #7c4030, #653529, #361a14;
+
+  color: #3c006c, #9a4e34, #399a16, #e2fb14;
+}
+
 - **Inspirações para a V4**:
 - _Visual do VS Code_: https://victor-aremu.firebaseapp.com/
 - _Terminal_: https://utkarshs-terminal.netlify.app/
