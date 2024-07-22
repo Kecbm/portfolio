@@ -392,7 +392,7 @@ const projects = [
   {
     type: 'frontend, backend, full stack',
     image: 'https://img.icons8.com/stickers/100/device-shop.png',
-    github: 'https://github.com/Kecbm/react-php',
+    github: 'https://github.com/Kecbm/br24',
     en: {
       title: 'CRM',
       description: 'CRUD full stack for companies using React on the frontend and PHP on the backend',
