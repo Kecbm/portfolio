@@ -418,7 +418,7 @@ const projects = [
   {
     type: 'backend',
     image: 'https://img.icons8.com/stickers/100/candle-sticks.png',
-    github: 'https://github.com/Kecbm/api-finance',
+    github: 'https://github.com/Kecbm/xp-inc',
     en: {
       title: 'API finance',
       description: 'API that simulates a stock brokerage, with the sale and purchase of assets',
