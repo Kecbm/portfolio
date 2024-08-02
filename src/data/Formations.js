@@ -65,11 +65,11 @@ const formations = [
         url: admSf,
         en: {
             title: 'Beginner Salesforce Administrator Course',
-            informations: 'Novembro de 2022 - 3.5 horas'
+            informations: 'November 2022 – 3.5 hours'
         },
         pt: {
             title: 'Curso Administrador Salesforce iniciante',
-            informations: 'November 2022 – 3.5 hours'
+            informations: 'Novembro de 2022 - 3.5 horas'
         }
     }
   ];
