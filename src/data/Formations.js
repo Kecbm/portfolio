@@ -72,7 +72,7 @@ const formations = [
             informations: 'Novembro de 2022 - 3.5 horas'
         }
     }
-  ];
+];
   
-  export default formations;
+export default formations;
   
