@@ -19,6 +19,8 @@ const translations = {
         about_list_3: 'Full Stack Web Development',
         about_list_4: 'Food Engineering',
         about_list_5: 'Federal University of Agreste de Pernambuco',
+        about_list_6: 'Container Architecture on AWS',
+        about_list_7: 'current',
 
         // Projects
         projectTitle: 'Projects',
@@ -54,6 +56,8 @@ const translations = {
         about_list_3: 'Desenvolvimento Web Full Stack',
         about_list_4: 'Engenharia de Alimentos',
         about_list_5: 'Universidade Federal do Agreste de Pernambuco',
+        about_list_6: 'Arquitetura de Containers na AWS',
+        about_list_7: 'atual',
 
         // Projects
         projectTitle: 'Projetos',

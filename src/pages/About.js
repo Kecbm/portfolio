@@ -74,6 +74,7 @@ const About = () => {
         <div className="list-about">
         <h1 className="titleAbout">{Translations[language].aboutTitle_2}</h1>
         <ul className="text-about">
+          <li>🏗️ <span className="text-bold">{Translations[language].about_list_6}</span> - LINUXTips (08/2024 - {Translations[language].about_list_7})</li>
           <li>🖥 <span className="text-bold">{Translations[language].about_list_3}</span> - Trybe (10/2021 - 12/2022)</li>
           <li>👩🏽‍🔬 <span className="text-bold">{Translations[language].about_list_4}</span> - {Translations[language].about_list_5} (01/2014 - 05/2021)</li>
         </ul>
