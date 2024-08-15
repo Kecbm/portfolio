@@ -51,6 +51,7 @@ const About = () => {
           <img title="Vercel" alt="Vercel" src="https://www.svgrepo.com/show/327408/logo-vercel.svg" />
           <img title="Heroku" alt="Heroku" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" />
           <img title="AWS" alt="AWS" src="https://img.icons8.com/color/48/amazon-web-services.png"/>
+          <img title="Terraform" alt="Terraform" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg" />
           <img title="Linux" alt="Linux" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
           <img title="Debian" alt="Debian" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" />
           <img title="Terminal" alt="Terminal" src="https://cdn.svgporn.com/logos/terminal.svg" />
