@@ -325,6 +325,19 @@ const projects = [
     }
   },
   {
+    type: 'devops',
+    image: 'https://img.icons8.com/stickers/100/globe.png',
+    github: 'https://github.com/Kecbm/aws-vpc',
+    en: {
+      title: 'VPC',
+      description: 'Terraform configuration for creating and managing a VPC on AWS',
+    },
+    pt: {
+      title: 'VPC',
+      description: 'Configuração Terraform para a criação e gerenciamento de uma VPC na AWS',
+    }
+  },
+  {
     type: 'design',
     image: 'https://img.icons8.com/stickers/100/employee-card--v1.png',
     github: 'https://www.figma.com/community/file/1296913985805167955/cards?fuid=1071152937439462429',

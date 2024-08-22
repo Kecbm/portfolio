@@ -41,6 +41,12 @@ function Projects() {
           {Translations[language].projectButton}
         </button>
         <button
+          onClick={() => handleTagClick(['devops'])}
+          className={selectedTag === 'devops' ? 'btn btn-tag-active' : 'btn  btn-tag'}
+        >
+          DevOPS
+        </button>
+        <button
           onClick={() => handleTagClick(['design'])}
           className={selectedTag === 'design' ? 'btn btn-tag-active' : 'btn  btn-tag'}
         >
