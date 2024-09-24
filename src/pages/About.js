@@ -64,39 +64,39 @@ const About = () => {
           <img title="Trello" alt="Trello" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" />
           <img title="Notion" alt="Notion" src="https://img.icons8.com/glyph-neue/64/notion.png"/>
         </div>
-        <div className="list-about">
-        <h1 className="titleAbout">{Translations[language].aboutTitle_1}</h1>
-        <ul className="text-about">
-          <li>⚡ <span className="text-bold">{Translations[language].about_list}</span> - BR24 (05/2023)</li>
-          <li>🏦 <span className="text-bold">Software Engineer 1</span> - XP Inc. (09/2022 - 03/2023)</li>
-          <li>🎷 <span className="text-bold">{Translations[language].about_list_1}</span> - {Translations[language].about_list_2} (01/2017 - 12/2020)</li>
-        </ul>
-        </div>
-        <div className="list-about">
-        <h1 className="titleAbout">{Translations[language].aboutTitle_2}</h1>
-        <ul className="text-about">
-          <li>🏗️ <span className="text-bold">{Translations[language].about_list_6}</span> - LINUXTips (08/2024 - {Translations[language].about_list_7})</li>
-          <li>🖥 <span className="text-bold">{Translations[language].about_list_3}</span> - Trybe (10/2021 - 12/2022)</li>
-          <li>👩🏽‍🔬 <span className="text-bold">{Translations[language].about_list_4}</span> - {Translations[language].about_list_5} (01/2014 - 05/2021)</li>
-        </ul>
-        </div>
+        {/* <div className="list-about">
+          <h1 className="titleAbout">{Translations[language].aboutTitle_1}</h1>
+          <ul className="text-about">
+            <li>⚡ <span className="text-bold">{Translations[language].about_list}</span> - BR24 (05/2023)</li>
+            <li>🏦 <span className="text-bold">Software Engineer 1</span> - XP Inc. (09/2022 - 03/2023)</li>
+            <li>🎷 <span className="text-bold">{Translations[language].about_list_1}</span> - {Translations[language].about_list_2} (01/2017 - 12/2020)</li>
+          </ul>
+          </div>
+          <div className="list-about">
+          <h1 className="titleAbout">{Translations[language].aboutTitle_2}</h1>
+          <ul className="text-about">
+            <li>🏗️ <span className="text-bold">{Translations[language].about_list_6}</span> - LINUXTips (08/2024 - {Translations[language].about_list_7})</li>
+            <li>🖥 <span className="text-bold">{Translations[language].about_list_3}</span> - Trybe (10/2021 - 12/2022)</li>
+            <li>👩🏽‍🔬 <span className="text-bold">{Translations[language].about_list_4}</span> - {Translations[language].about_list_5} (01/2014 - 05/2021)</li>
+          </ul>
+        </div> */}
         <img alt="Avatar" src={secondAvatar}  id="avatar-about" />
       </section>
-      <div id='section-formations'>
-      {
-          formations.map((formation, index) => (
-              <div key={index} className='card-formation'>
-                  <img src={formation.url} alt={formation[language].title} className='img-formation'/>
-                  <div id='card-formation-footer'>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/c4c2bf/calendar.png" alt="calendar"/>
-                    <p className='about-formation'>
-                      {formation[language].informations}
-                    </p>
-                  </div>
-              </div>
-          ))
-      }
-      </div>
+      {/* <div id='section-formations'>
+        {
+            formations.map((formation, index) => (
+                <div key={index} className='card-formation'>
+                    <img src={formation.url} alt={formation[language].title} className='img-formation'/>
+                    <div id='card-formation-footer'>
+                      <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/c4c2bf/calendar.png" alt="calendar"/>
+                      <p className='about-formation'>
+                        {formation[language].informations}
+                      </p>
+                    </div>
+                </div>
+            ))
+        }
+      </div> */}
     </div>
   );
 }
