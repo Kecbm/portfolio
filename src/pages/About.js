@@ -1,6 +1,6 @@
 import React from 'react';
 import secondAvatar from '../assets/Avatar2.png';
-import formations from '../data/Formations';
+// import formations from '../data/Formations';
 import '../css/About.css';
 import { useLanguage } from '../context/LanguageContext';
 import Translations from '../locales/Translations';
