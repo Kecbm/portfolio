@@ -1,5 +1,16 @@
 const articles = [
   {
+    image: 'https://img.icons8.com/stickers/100/maintenance.png',
+    url: 'https://dev.to/kecbm/technical-and-business-refinement-why-tech-teams-cannot-ignore-it-43i5',
+    type: 'business',
+    en: {
+      title: 'Technical and business refinement',
+    },
+    pt: {
+      title: 'Refinamento técnico e de negócio',
+    }
+  },
+  {
     image: 'https://img.icons8.com/stickers/100/class.png',
     url: 'https://dev.to/kecbm/pessoas-desenvolvedoras-precisam-estudar-todos-os-dias-5dea',
     type: 'career',
